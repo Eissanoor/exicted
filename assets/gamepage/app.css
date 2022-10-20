@@ -176,13 +176,15 @@
 
 label {
     
-   
-    padding: 0;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    border: 0;
+    font-size: 13px;
+        padding: 2px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        background-color: beige;
+        clip: rect(0 0 0 0);
+        border: solid 1px red;
+        border-radius: 5px;
 }
 
 
