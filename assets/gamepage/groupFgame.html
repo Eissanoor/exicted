@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="games">
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">23.11.2022, 13:00</div>
+                <div class="game-header--day">1. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Morocco</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/morocco.svg"
+                      title="Morocco"
+                      alt="Morocco"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Croatia</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/croatia.svg"
+                      title="Croatia"
+                      alt="Croatia"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-12-v1">Vote</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-12-v1"
+                        type="number"
+                        placeholder="Your Vote"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-12-v2">Vote</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-12-v2"
+                        type="number"
+                        placeholder="Your Vote"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Morocco will win against Croatia. (0%)"
+                      class="game-votes--win"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (100%)"
+                      class="game-votes--draw"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="Morocco will lose against Croatia. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    Vote Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">23.11.2022, 22:00</div>
+                <div class="game-header--day">1. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Belgium</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/belgium.svg"
+                      title="Belgium"
+                      alt="Belgium"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Canada</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/canada.svg"
+                      title="Canada"
+                      alt="Canada"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-9-v1">Vote</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-9-v1"
+                        type="number"
+                        placeholder="Your Vote"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-9-v2">Vote</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-9-v2"
+                        type="number"
+                        placeholder="Your Vote"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Belgium will win against Canada. (100%)"
+                      class="game-votes--win"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (0%)"
+                      class="game-votes--draw"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="Belgium will lose against Canada. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    Vote Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">27.11.2022, 16:00</div>
+                <div class="game-header--day">2. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Belgium</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/belgium.svg"
+                      title="Belgium"
+                      alt="Belgium"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Morocco</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/morocco.svg"
+                      title="Morocco"
+                      alt="Morocco"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-26-v1">Vote</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-26-v1"
+                        type="number"
+                        placeholder="Your Vote"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-26-v2">Vote</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-26-v2"
+                        type="number"
+                        placeholder="Your Vote"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Belgium will win against Morocco. (100%)"
+                      class="game-votes--win"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (0%)"
+                      class="game-votes--draw"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="Belgium will lose against Morocco. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    Vote Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">27.11.2022, 19:00</div>
+                <div class="game-header--day">2. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Croatia</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/croatia.svg"
+                      title="Croatia"
+                      alt="Croatia"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Canada</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/canada.svg"
+                      title="Canada"
+                      alt="Canada"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-27-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-27-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-27-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-27-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Croatia will win against Canada. (100%)"
+                      class="game-votes--win"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (0%)"
+                      class="game-votes--draw"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="Croatia will lose against Canada. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">01.12.2022, 18:00</div>
+                <div class="game-header--day">3. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Croatia</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/croatia.svg"
+                      title="Croatia"
+                      alt="Croatia"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Belgium</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/belgium.svg"
+                      title="Belgium"
+                      alt="Belgium"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-41-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-41-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-41-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-41-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Croatia will win against Belgium. (33.33%)"
+                      class="game-votes--win"
+                      style="width: 33.33%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (33.33%)"
+                      class="game-votes--draw"
+                      style="width: 33.33%"
+                    ></div>
+                    <div
+                      title="Croatia will lose against Belgium. (33.33%)"
+                      class="game-votes--lose"
+                      style="width: 33.33%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">01.12.2022, 18:00</div>
+                <div class="game-header--day">3. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Canada</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/canada.svg"
+                      title="Canada"
+                      alt="Canada"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Morocco</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/morocco.svg"
+                      title="Morocco"
+                      alt="Morocco"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-42-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-42-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-42-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-42-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Canada will win against Morocco. (100%)"
+                      class="game-votes--win"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (0%)"
+                      class="game-votes--draw"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="Canada will lose against Morocco. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

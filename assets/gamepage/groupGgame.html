@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="games">
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">24.11.2022, 13:00</div>
+                <div class="game-header--day">1. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Switzerland</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/switzerland.svg"
+                      title="Switzerland"
+                      alt="Switzerland"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Cameroon</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/cameroon.svg"
+                      title="Cameroon"
+                      alt="Cameroon"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-13-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-13-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-13-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-13-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Switzerland will win against Cameroon. (0%)"
+                      class="game-votes--win"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (100%)"
+                      class="game-votes--draw"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="Switzerland will lose against Cameroon. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">24.11.2022, 22:00</div>
+                <div class="game-header--day">1. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Brazil</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/brazil.svg"
+                      title="Brazil"
+                      alt="Brazil"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Serbia</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/serbia.svg"
+                      title="Serbia"
+                      alt="Serbia"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-16-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-16-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-16-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-16-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Brazil will win against Serbia. (100%)"
+                      class="game-votes--win"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (0%)"
+                      class="game-votes--draw"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="Brazil will lose against Serbia. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">28.11.2022, 13:00</div>
+                <div class="game-header--day">2. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Cameroon</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/cameroon.svg"
+                      title="Cameroon"
+                      alt="Cameroon"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Serbia</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/serbia.svg"
+                      title="Serbia"
+                      alt="Serbia"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-29-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-29-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-29-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-29-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Cameroon will win against Serbia. (0%)"
+                      class="game-votes--win"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (100%)"
+                      class="game-votes--draw"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="Cameroon will lose against Serbia. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">28.11.2022, 19:00</div>
+                <div class="game-header--day">2. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Brazil</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/brazil.svg"
+                      title="Brazil"
+                      alt="Brazil"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Switzerland</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/switzerland.svg"
+                      title="Switzerland"
+                      alt="Switzerland"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-31-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-31-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-31-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-31-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Brazil will win against Switzerland. (100%)"
+                      class="game-votes--win"
+                      style="width: 100%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (0%)"
+                      class="game-votes--draw"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="Brazil will lose against Switzerland. (0%)"
+                      class="game-votes--lose"
+                      style="width: 0%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">02.12.2022, 22:00</div>
+                <div class="game-header--day">3. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Serbia</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/serbia.svg"
+                      title="Serbia"
+                      alt="Serbia"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Switzerland</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/switzerland.svg"
+                      title="Switzerland"
+                      alt="Switzerland"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-47-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-47-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-47-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-47-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Serbia will win against Switzerland. (0%)"
+                      class="game-votes--win"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (0%)"
+                      class="game-votes--draw"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="Serbia will lose against Switzerland. (100%)"
+                      class="game-votes--lose"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card__game">
+        <div class="card--container">
+          <!---->
+          <div class="card--content">
+            <div class="game">
+              <div class="game-header">
+                <div class="game-header--date">02.12.2022, 22:00</div>
+                <div class="game-header--day">3. Game Day</div>
+              </div>
+              <div class="game-teams">
+                <div class="game-team">
+                  <div class="game-team--name">Cameroon</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/cameroon.svg"
+                      title="Cameroon"
+                      alt="Cameroon"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+                <div class="game-results">
+                  <div class="game-result">-</div>
+                  <div class="game-result--spacer">:</div>
+                  <div class="game-result">-</div>
+                </div>
+                <div class="game-team game-team__reverse">
+                  <div class="game-team--name">Brazil</div>
+                  <div class="game-team--image-wrapper">
+                    <img
+                      src="./img/flags/brazil.svg"
+                      title="Brazil"
+                      alt="Brazil"
+                      class="game-team--image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="vote">
+                <form class="vote-form">
+                  <div class="vote--control">
+                    <label for="vote-48-v1">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-48-v1"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="vote--spacer">:</div>
+                  <div class="vote--control">
+                    <label for="vote-48-v2">pool</label>
+                    <div class="input vote--control--input input-error">
+                      <input
+                        id="vote-48-v2"
+                        type="number"
+                        placeholder="Your pool"
+                        autocomplete="off"
+                        class="has-error"
+                      />
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="game-votes">
+                    <div
+                      title="Cameroon will win against Brazil. (0%)"
+                      class="game-votes--win"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="The game will end with a draw. (0%)"
+                      class="game-votes--draw"
+                      style="width: 0%"
+                    ></div>
+                    <div
+                      title="Cameroon will lose against Brazil. (100%)"
+                      class="game-votes--lose"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                  <button disabled="disabled" class="vote--button button">
+                    <!---->
+                    <!---->
+                    pool Now!
+                    <!---->
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
