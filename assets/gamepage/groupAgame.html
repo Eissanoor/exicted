@@ -48,33 +48,14 @@
                 </div>
               </div>
               <div class="vote">
-                <form class="vote-form">
+                <div class="vote-form">
                   <div class="vote--control">
-                    <label for="vote-1-v1">pool</label>
-                    <div class="input vote--control--input input-error">
-                      <input
-                        id="vote-1-v1"
-                        type="number"
-                        placeholder="Your pool"
-                        autocomplete="off"
-                        class="has-error"
-                      />
-                      <!---->
-                    </div>
+                    <label for="vote-1-v1" id="qatar"></label>
                   </div>
-                  <div class="vote--spacer">:</div>
+                  <div class="vote--spacer" id="draw"></div>
+
                   <div class="vote--control">
-                    <label for="vote-1-v2">pool</label>
-                    <div class="input vote--control--input input-error">
-                      <input
-                        id="vote-1-v2"
-                        type="number"
-                        placeholder="Your pool"
-                        autocomplete="off"
-                        class="has-error"
-                      />
-                      <!---->
-                    </div>
+                    <label for="vote-1-v2" id="Ecuador"></label>
                   </div>
                   <div class="game-votes">
                     <div
@@ -93,13 +74,17 @@
                       style="width: 17%"
                     ></div>
                   </div>
-                  <button disabled="disabled" class="vote--button button">
+                  <button
+                    id="btt"
+                    onclick="myFunction()"
+                    class="vote--button button"
+                  >
                     <!---->
                     <!---->
                     pool Now!
                     <!---->
                   </button>
-                </form>
+                </div>
               </div>
             </div>
           </div>
@@ -143,60 +128,57 @@
                   </div>
                 </div>
               </div>
-              <div class="vote">
-                <form class="vote-form">
-                  <div class="vote--control">
-                    <label for="vote-2-v1">pool</label>
-                    <div class="input vote--control--input input-error">
-                      <input
-                        id="vote-2-v1"
-                        type="number"
-                        placeholder="Your pool"
-                        autocomplete="off"
-                        class="has-error"
-                      />
-                      <!---->
-                    </div>
-                  </div>
-                  <div class="vote--spacer">:</div>
-                  <div class="vote--control">
-                    <label for="vote-2-v2">pool</label>
-                    <div class="input vote--control--input input-error">
-                      <input
-                        id="vote-2-v2"
-                        type="number"
-                        placeholder="Your pool"
-                        autocomplete="off"
-                        class="has-error"
-                      />
-                      <!---->
-                    </div>
-                  </div>
-                  <div class="game-votes">
-                    <div
-                      title="Senegal will win against Netherlands. (0%)"
-                      class="game-votes--win"
-                      style="width: 0%"
-                    ></div>
-                    <div
-                      title="The game will end with a draw. (100%)"
-                      class="game-votes--draw"
-                      style="width: 100%"
-                    ></div>
-                    <div
-                      title="Senegal will lose against Netherlands. (0%)"
-                      class="game-votes--lose"
-                      style="width: 0%"
-                    ></div>
-                  </div>
-                  <button disabled="disabled" class="vote--button button">
-                    <!---->
-                    <!---->
-                    pool Now!
-                    <!---->
-                  </button>
-                </form>
+
+              <div class="vote--control">
+                <label for="vote-2-v1">pool</label>
+                <div class="input vote--control--input input-error">
+                  <input
+                    id="vote-2-v1"
+                    type="number"
+                    placeholder="Your pool"
+                    autocomplete="off"
+                    class="has-error"
+                  />
+                  <!---->
+                </div>
               </div>
+              <div class="vote--spacer">:</div>
+              <div class="vote--control">
+                <label for="vote-2-v2">pool</label>
+                <div class="input vote--control--input input-error">
+                  <input
+                    id="vote-2-v2"
+                    type="number"
+                    placeholder="Your pool"
+                    autocomplete="off"
+                    class="has-error"
+                  />
+                  <!---->
+                </div>
+              </div>
+              <div class="game-votes">
+                <div
+                  title="Senegal will win against Netherlands. (0%)"
+                  class="game-votes--win"
+                  style="width: 0%"
+                ></div>
+                <div
+                  title="The game will end with a draw. (100%)"
+                  class="game-votes--draw"
+                  style="width: 100%"
+                ></div>
+                <div
+                  title="Senegal will lose against Netherlands. (0%)"
+                  class="game-votes--lose"
+                  style="width: 0%"
+                ></div>
+              </div>
+              <button class="vote--button button">
+                <!---->
+                <!---->
+                pool Now!
+                <!---->
+              </button>
             </div>
           </div>
         </div>
@@ -587,4 +569,6 @@
       </div>
     </div>
   </body>
+
+  <script src="./groupa.js"></script>
 </html>
