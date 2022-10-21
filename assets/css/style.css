@@ -12,6 +12,9 @@
     08. about css here
     09. contact page css here
 */
+
+
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1660,10 +1663,60 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     padding-top: 28px;
   }
 }
+.sidenav a {
+  display: none;
+}
+
+#dis {
+  display: none;
+  
+    background: #dc3545;
+    margin-top: -58px;
+    border: solid 1px red;
+    border-radius: 5px;
+    padding: 6px;
+}
 @media only screen and (max-width: 575px) {
   .hero_content {
     padding-top: 152px;
   }
+#dis {
+  display: block;
+}
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+  
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s
+    }
+  
+    .sidenav a:hover,
+    .offcanvas a:focus {
+      color: #f1f1f1;
+    }
+  
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
 }
 .hero_content h1 {
   margin-bottom: 41px;
@@ -1703,7 +1756,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-size: 40px;
     line-height: 48px;
   }
+  
+
+
+
+
+
 }
+
 .hero_content p {
   font-size: 25px;
   font-weight: 600;

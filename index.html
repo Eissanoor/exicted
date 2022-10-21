@@ -54,6 +54,26 @@
                 /></a>
               </div>
               <!--main menu start-->
+              <div id="mySidenav" class="sidenav">
+                <a
+                  href="javascript:void(0)"
+                  class="closebtn"
+                  onclick="closeNav()"
+                  >&times;</a
+                >
+
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#roadmap">Roadmap</a>
+              </div>
+
+              <span
+                id="dis"
+                style="font-size: 30px; cursor: pointer"
+                onclick="openNav()"
+                >☰
+              </span>
               <div class="main_menu d-none d-lg-block">
                 <nav>
                   <ul class="d-flex">
@@ -607,5 +627,14 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
   </body>
 </html>
