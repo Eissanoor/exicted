@@ -567,22 +567,22 @@ figure {
 -----------------------------------------*/
 input:-moz-placeholder, textarea:-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ 
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ 
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ 
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  
 }
 
 /*margin css here*/
@@ -1676,6 +1676,20 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     border-radius: 5px;
     padding: 6px;
 }
+
+/* -------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+.sidenav a,
+.dropdown-btn {
+  display: none;
+}
+
+
+
 @media only screen and (max-width: 575px) {
   .hero_content {
     padding-top: 152px;
@@ -1683,11 +1697,27 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 #dis {
   display: block;
 }
+.sidenav a,
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+#navb{margin-left: 16px;}
+
     .sidenav {
       height: 100%;
       width: 0;
       position: fixed;
-      z-index: 1;
+      z-index: 1 !important;
       top: 0;
       left: 0;
       background-color: #111;
