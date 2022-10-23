@@ -48,39 +48,20 @@
                 </div>
               </div>
               <div class="vote">
-                <form class="vote-form">
+                <div class="vote-form">
                   <div class="vote--control">
-                    <label for="vote-11-v1">pool</label>
-                    <div class="input vote--control--input input-error">
-                      <input
-                        id="vote-11-v1"
-                        type="number"
-                        placeholder="Your pool"
-                        autocomplete="off"
-                        class="has-error"
-                      />
-                      <!---->
-                    </div>
+                    <label for="vote-1-v1" id="qatar"> Qatar Win</label>
                   </div>
-                  <div class="vote--spacer">:</div>
+                  <div class="vote--spacer" id="draw">Draw</div>
+
                   <div class="vote--control">
-                    <label for="vote-11-v2">pool</label>
-                    <div class="input vote--control--input input-error">
-                      <input
-                        id="vote-11-v2"
-                        type="number"
-                        placeholder="Your pool"
-                        autocomplete="off"
-                        class="has-error"
-                      />
-                      <!---->
-                    </div>
+                    <label for="vote-1-v2" id="Ecuador">Ecuador Win</label>
                   </div>
                   <div class="game-votes">
                     <div
-                      title="Germany will win against Japan. (100%)"
+                      title="Qatar will win against Ecuador. (83%)"
                       class="game-votes--win"
-                      style="width: 100%"
+                      style="width: 83%"
                     ></div>
                     <div
                       title="The game will end with a draw. (0%)"
@@ -88,18 +69,22 @@
                       style="width: 0%"
                     ></div>
                     <div
-                      title="Germany will lose against Japan. (0%)"
+                      title="Qatar will lose against Ecuador. (17%)"
                       class="game-votes--lose"
-                      style="width: 0%"
+                      style="width: 17%"
                     ></div>
                   </div>
-                  <button disabled="disabled" class="vote--button button">
+                  <button
+                    id="btt"
+                    onclick="myFunction()"
+                    class="vote--button button"
+                  >
                     <!---->
                     <!---->
                     pool Now!
                     <!---->
                   </button>
-                </form>
+                </div>
               </div>
             </div>
           </div>
