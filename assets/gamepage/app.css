@@ -1178,6 +1178,13 @@ form {
   .route-overview .ranking-extension {
     display: inline;
   }
+  #wall {
+    color: white;
+    text-decoration: none;
+
+    width: 307px;
+    height: 18px;
+  }
 
   .route-overview .ranking--place {
     width: 40px;
@@ -1212,7 +1219,13 @@ form {
   .route-overview .ranking-extension {
     display: inline;
   }
+  #wall {
+    color: white;
+    text-decoration: none;
 
+    width: 307px;
+    height: 18px;
+  }
   .route-overview .ranking--place {
     width: 40px;
     width: 2.5rem;
@@ -1245,6 +1258,13 @@ form {
 @media only screen and (min-width: 35em) {
   .route-ranking .ranking-extension {
     display: inline;
+  }
+  #wall {
+    color: white;
+    text-decoration: none;
+
+    width: 307px;
+    height: 18px;
   }
 
   .route-ranking .ranking--place {
@@ -1422,13 +1442,25 @@ select.has-error {
     width: 25%;
   }
 }
+#wall {
+  color: white;
+  text-decoration: none;
 
+  width: 307px;
+  height: 18px;
+}
 @media only screen and (min-width: 80em) {
   .overview-container__groups .card__group {
     width: 12.5%;
   }
 }
+#wall {
+  color: white;
+  text-decoration: none;
 
+  width: 307px;
+  height: 18px;
+}
 .overview-container__misc .card {
   width: 100%;
   padding-top: 20px;
@@ -1439,6 +1471,13 @@ select.has-error {
   .overview-container__misc .card {
     width: 50%;
   }
+}
+#wall {
+  color: white;
+  text-decoration: none;
+
+  width: 307px;
+  height: 18px;
 }
 
 .view-reset-password-complete .support-box {
@@ -1460,6 +1499,13 @@ select.has-error {
     font-size: 20px;
     font-size: 1.25rem;
   }
+}
+#wall {
+  color: white;
+  text-decoration: none;
+
+  width: 307px;
+  height: 18px;
 }
 
 .view-reset-password-complete .support-box--content {
@@ -1922,7 +1968,13 @@ select.has-error {
     overflow-y: auto;
     max-height: none;
   }
+  #wall {
+    color: white;
+    text-decoration: none;
 
+    width: 307px;
+    height: 18px;
+  }
   .main-menu--toggle {
     display: none;
   }
@@ -1959,6 +2011,13 @@ select.has-error {
   .user-menu {
     display: block;
   }
+}
+#wall {
+  color: white;
+  text-decoration: none;
+
+  width: 307px;
+  height: 18px;
 }
 
 .user-menu--dropdown {
@@ -2063,6 +2122,13 @@ select.has-error {
     width: auto;
   }
 }
+#wall {
+  color: white;
+  text-decoration: none;
+
+  width: 307px;
+  height: 18px;
+}
 
 .header--title--link {
   color: #fff;
@@ -2094,7 +2160,13 @@ select.has-error {
     text-align: center;
   }
 }
+#wall {
+  color: white;
+  text-decoration: none;
 
+  width: 307px;
+  height: 18px;
+}
 .footer--link:hover {
   text-decoration: underline;
 }
@@ -2579,6 +2651,13 @@ a:hover {
     font-size: 28px;
     font-size: 1.75rem;
   }
+}
+#wall {
+  color: white;
+  text-decoration: none;
+
+  width: 307px;
+  height: 18px;
 }
 
 .page-title--divider {
