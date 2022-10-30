@@ -6,7 +6,9 @@
   max-width: 100%;
   top: 49px !important;
 }
-
+.games {
+  background-color: #ffffa6;
+}
 .notification-wrapper {
   display: block;
   overflow: hidden;
