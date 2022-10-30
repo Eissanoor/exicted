@@ -21,7 +21,7 @@ function england() {
 
 function Iran() {
   voteable = "3 iran win the match";
-  document.getElementById("iran").innerHTML = voteable;
+  document.getElementById("Iran").innerHTML = voteable;
   document.getElementById("btt").disabled = true;
 }
 
