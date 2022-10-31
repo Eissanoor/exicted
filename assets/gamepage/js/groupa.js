@@ -1,5 +1,292 @@
 let voteable;
-
+function Draw() {
+  voteable = "1 Draw match";
+  document.getElementById("Draw").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dra() {
+  voteable = "1 Draw match";
+  document.getElementById("Dra").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr3() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr3").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr4() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr4").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr5() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr5").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr6() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr6").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr7() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr7").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr8() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr8").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr9() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr9").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr10() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr10").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr11() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr11").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr12() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr12").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr13() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr13").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr14() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr14").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr15() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr15").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr16() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr16").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr17() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr17").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr18() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr18").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr19() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr19").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr20() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr20").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr21() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr21").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr22() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr22").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr23() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr23").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr24() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr24").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr25() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr25").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr26() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr26").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr27() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr27").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr28() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr28").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr29() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr29").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr30() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr30").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr31() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr31").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr32() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr32").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr33() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr33").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr34() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr34").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr35() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr35").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr36() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr36").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr37() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr37").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr38() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr38").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr39() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr39").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr40() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr40").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr41() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr41").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr42() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr42").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr43() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr43").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr44() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr44").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr45() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr45").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr46() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr46").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr47() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr47").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr48() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr48").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
 function qatar() {
   voteable = "1 qatar win the match";
   document.getElementById("qatar").innerHTML = voteable;

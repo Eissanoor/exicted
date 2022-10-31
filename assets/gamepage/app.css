@@ -383,6 +383,9 @@ input.has-error {
 .vote--spacer {
   display: -webkit-box;
   display: -ms-flexbox;
+  background-color: #f5f4af;
+  border: solid 1px red;
+  border-radius: 5px;
   display: flex;
   width: 56px;
   width: 3.5rem;

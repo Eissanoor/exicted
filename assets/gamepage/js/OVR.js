@@ -1,5 +1,34 @@
 let voteable;
-
+function Dr1() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr1").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr2() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr2").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr3() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr3").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr4() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr4").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
+function Dr5() {
+  voteable = "1 Draw match";
+  document.getElementById("Dr5").innerHTML = voteable;
+  console.log("asd");
+  document.getElementById("btt").disabled = true;
+}
 function Qatar() {
   voteable = "1 Qatar win the match";
   document.getElementById("Qatar").innerHTML = voteable;
