@@ -77,67 +77,165 @@ e.addEventListener(
   },
   false
 );
-function Denmark() {
-  voteable = "1 Denmark win the match";
-  document.getElementById("Denmark").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Tunisia() {
-  voteable = "1 Tunisia win the match";
-  document.getElementById("Tunisia").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function France() {
-  voteable = "1 France win the match";
-  document.getElementById("France").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Australia() {
-  voteable = "1 Australia win the match";
-  document.getElementById("Australia").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Tunisi() {
-  voteable = "1 Tunisia win the match";
-  document.getElementById("Tunisi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Denmark = document.getElementById("Denmark");
+Denmark.addEventListener(
+  "click",
+  function () {
+    if (Denmark.getAttribute("data-text") == Denmark.innerHTML) {
+      Denmark.innerHTML = Denmark.getAttribute("data-text1");
+    } else {
+      Denmark.setAttribute("data-text1", Denmark.innerHTML);
+      Denmark.innerHTML = Denmark.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Tunisia = document.getElementById("Tunisia");
+Tunisia.addEventListener(
+  "click",
+  function () {
+    if (Tunisia.getAttribute("data-text") == Tunisia.innerHTML) {
+      Tunisia.innerHTML = Tunisia.getAttribute("data-text1");
+    } else {
+      Tunisia.setAttribute("data-text1", Tunisia.innerHTML);
+      Tunisia.innerHTML = Tunisia.getAttribute("data-text");
+    }
+  },
+  false
+);
+var France = document.getElementById("France");
+France.addEventListener(
+  "click",
+  function () {
+    if (France.getAttribute("data-text") == France.innerHTML) {
+      France.innerHTML = France.getAttribute("data-text1");
+    } else {
+      France.setAttribute("data-text1", France.innerHTML);
+      France.innerHTML = France.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Australi() {
-  voteable = "1 Australia win the match";
-  document.getElementById("Australi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Australia = document.getElementById("Australia");
+Australia.addEventListener(
+  "click",
+  function () {
+    if (Australia.getAttribute("data-text") == Australia.innerHTML) {
+      Australia.innerHTML = Australia.getAttribute("data-text1");
+    } else {
+      Australia.setAttribute("data-text1", Australia.innerHTML);
+      Australia.innerHTML = Australia.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Franc() {
-  voteable = "1 France win the match";
-  document.getElementById("Franc").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Tunisi = document.getElementById("Tunisi");
+Tunisi.addEventListener(
+  "click",
+  function () {
+    if (Tunisi.getAttribute("data-text") == Tunisi.innerHTML) {
+      Tunisi.innerHTML = Tunisi.getAttribute("data-text1");
+    } else {
+      Tunisi.setAttribute("data-text1", Tunisi.innerHTML);
+      Tunisi.innerHTML = Tunisi.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Australi = document.getElementById("Australi");
+Australi.addEventListener(
+  "click",
+  function () {
+    if (Australi.getAttribute("data-text") == Australi.innerHTML) {
+      Australi.innerHTML = Australi.getAttribute("data-text1");
+    } else {
+      Australi.setAttribute("data-text1", Australi.innerHTML);
+      Australi.innerHTML = Australi.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Denmar() {
-  voteable = "1 Denmark win the match";
-  document.getElementById("Denmar").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Denma() {
-  voteable = "1 Denmark win the match";
-  document.getElementById("Denma").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Austral() {
-  voteable = "1 Australia win the match";
-  document.getElementById("Austral").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Franc = document.getElementById("Franc");
+Franc.addEventListener(
+  "click",
+  function () {
+    if (Franc.getAttribute("data-text") == Franc.innerHTML) {
+      Franc.innerHTML = Franc.getAttribute("data-text1");
+    } else {
+      Franc.setAttribute("data-text1", Franc.innerHTML);
+      Franc.innerHTML = Franc.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Tuni() {
-  voteable = "1 Tunisia win the match";
-  document.getElementById("Tuni").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Fr() {
-  voteable = "1 France win the match";
-  document.getElementById("Fr").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Denmar = document.getElementById("Denmar");
+Denmar.addEventListener(
+  "click",
+  function () {
+    if (Denmar.getAttribute("data-text") == Denmar.innerHTML) {
+      Denmar.innerHTML = Denmar.getAttribute("data-text1");
+    } else {
+      Denmar.setAttribute("data-text1", Denmar.innerHTML);
+      Denmar.innerHTML = Denmar.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Denma = document.getElementById("Denma");
+Denma.addEventListener(
+  "click",
+  function () {
+    if (Denma.getAttribute("data-text") == Denma.innerHTML) {
+      Denma.innerHTML = Denma.getAttribute("data-text1");
+    } else {
+      Denma.setAttribute("data-text1", Denma.innerHTML);
+      Denma.innerHTML = Denma.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Austral = document.getElementById("Austral");
+Austral.addEventListener(
+  "click",
+  function () {
+    if (Austral.getAttribute("data-text") == Austral.innerHTML) {
+      Austral.innerHTML = Austral.getAttribute("data-text1");
+    } else {
+      Austral.setAttribute("data-text1", Austral.innerHTML);
+      Austral.innerHTML = Austral.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Tuni = document.getElementById("Tuni");
+Tuni.addEventListener(
+  "click",
+  function () {
+    if (Tuni.getAttribute("data-text") == Tuni.innerHTML) {
+      Tuni.innerHTML = Tuni.getAttribute("data-text1");
+    } else {
+      Tuni.setAttribute("data-text1", Tuni.innerHTML);
+      Tuni.innerHTML = Tuni.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Fr = document.getElementById("Fr");
+Fr.addEventListener(
+  "click",
+  function () {
+    if (Fr.getAttribute("data-text") == Fr.innerHTML) {
+      Fr.innerHTML = Fr.getAttribute("data-text1");
+    } else {
+      Fr.setAttribute("data-text1", Fr.innerHTML);
+      Fr.innerHTML = Fr.getAttribute("data-text");
+    }
+  },
+  false
+);

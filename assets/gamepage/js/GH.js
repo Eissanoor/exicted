@@ -77,63 +77,160 @@ e.addEventListener(
   },
   false
 );
-function Uruguay() {
-  voteable = "1 Uruguay win the match";
-  document.getElementById("Uruguay").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Korea() {
-  voteable = "1 Korea win the match";
-  document.getElementById("Korea").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Portugal() {
-  voteable = "1 Portugal win the match";
-  document.getElementById("Portugal").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ghana() {
-  voteable = "1 Ghana win the match";
-  document.getElementById("Ghana").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Republic() {
-  voteable = "1 Republic win the match";
-  document.getElementById("Republic").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ghan() {
-  voteable = "1 Ghana win the match";
-  document.getElementById("Ghan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Portuga() {
-  voteable = "1 Portugal win the match";
-  document.getElementById("Portuga").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Urugu() {
-  voteable = "1 Uruguay win the match";
-  document.getElementById("Urugu").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Gha() {
-  voteable = "1 Ghana win the match";
-  document.getElementById("Gha").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Urug() {
-  voteable = "1 Uruguay win the match";
-  document.getElementById("Urug").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Kor() {
-  voteable = "1 Korea win the match";
-  document.getElementById("Kor").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Por() {
-  voteable = "1 Portu win the match";
-  document.getElementById("Por").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Uruguay = document.getElementById("Uruguay");
+Uruguay.addEventListener(
+  "click",
+  function () {
+    if (Uruguay.getAttribute("data-text") == Uruguay.innerHTML) {
+      Uruguay.innerHTML = Uruguay.getAttribute("data-text1");
+    } else {
+      Uruguay.setAttribute("data-text1", Uruguay.innerHTML);
+      Uruguay.innerHTML = Uruguay.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Korea = document.getElementById("Korea");
+Korea.addEventListener(
+  "click",
+  function () {
+    if (Korea.getAttribute("data-text") == Korea.innerHTML) {
+      Korea.innerHTML = Korea.getAttribute("data-text1");
+    } else {
+      Korea.setAttribute("data-text1", Korea.innerHTML);
+      Korea.innerHTML = Korea.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Portugal = document.getElementById("Portugal");
+Portugal.addEventListener(
+  "click",
+  function () {
+    if (Portugal.getAttribute("data-text") == Portugal.innerHTML) {
+      Portugal.innerHTML = Portugal.getAttribute("data-text1");
+    } else {
+      Portugal.setAttribute("data-text1", Portugal.innerHTML);
+      Portugal.innerHTML = Portugal.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Ghana = document.getElementById("Ghana");
+Ghana.addEventListener(
+  "click",
+  function () {
+    if (Ghana.getAttribute("data-text") == Ghana.innerHTML) {
+      Ghana.innerHTML = Ghana.getAttribute("data-text1");
+    } else {
+      Ghana.setAttribute("data-text1", Ghana.innerHTML);
+      Ghana.innerHTML = Ghana.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Republic = document.getElementById("Republic");
+Republic.addEventListener(
+  "click",
+  function () {
+    if (Republic.getAttribute("data-text") == Republic.innerHTML) {
+      Republic.innerHTML = Republic.getAttribute("data-text1");
+    } else {
+      Republic.setAttribute("data-text1", Republic.innerHTML);
+      Republic.innerHTML = Republic.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Ghan = document.getElementById("Ghan");
+Ghan.addEventListener(
+  "click",
+  function () {
+    if (Ghan.getAttribute("data-text") == Ghan.innerHTML) {
+      Ghan.innerHTML = Ghan.getAttribute("data-text1");
+    } else {
+      Ghan.setAttribute("data-text1", Ghan.innerHTML);
+      Ghan.innerHTML = Ghan.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Portuga = document.getElementById("Portuga");
+Portuga.addEventListener(
+  "click",
+  function () {
+    if (Portuga.getAttribute("data-text") == Portuga.innerHTML) {
+      Portuga.innerHTML = Portuga.getAttribute("data-text1");
+    } else {
+      Portuga.setAttribute("data-text1", Portuga.innerHTML);
+      Portuga.innerHTML = Portuga.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Urugu = document.getElementById("Urugu");
+Urugu.addEventListener(
+  "click",
+  function () {
+    if (Urugu.getAttribute("data-text") == Urugu.innerHTML) {
+      Urugu.innerHTML = Urugu.getAttribute("data-text1");
+    } else {
+      Urugu.setAttribute("data-text1", Urugu.innerHTML);
+      Urugu.innerHTML = Urugu.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Gha = document.getElementById("Gha");
+Gha.addEventListener(
+  "click",
+  function () {
+    if (Gha.getAttribute("data-text") == Gha.innerHTML) {
+      Gha.innerHTML = Gha.getAttribute("data-text1");
+    } else {
+      Gha.setAttribute("data-text1", Gha.innerHTML);
+      Gha.innerHTML = Gha.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Urug = document.getElementById("Urug");
+Urug.addEventListener(
+  "click",
+  function () {
+    if (Urug.getAttribute("data-text") == Urug.innerHTML) {
+      Urug.innerHTML = Urug.getAttribute("data-text1");
+    } else {
+      Urug.setAttribute("data-text1", Urug.innerHTML);
+      Urug.innerHTML = Urug.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Kor = document.getElementById("Kor");
+Kor.addEventListener(
+  "click",
+  function () {
+    if (Kor.getAttribute("data-text") == Kor.innerHTML) {
+      Kor.innerHTML = Kor.getAttribute("data-text1");
+    } else {
+      Kor.setAttribute("data-text1", Kor.innerHTML);
+      Kor.innerHTML = Kor.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Por = document.getElementById("Por");
+Por.addEventListener(
+  "click",
+  function () {
+    if (Por.getAttribute("data-text") == Por.innerHTML) {
+      Por.innerHTML = Por.getAttribute("data-text1");
+    } else {
+      Por.setAttribute("data-text1", Por.innerHTML);
+      Por.innerHTML = Por.getAttribute("data-text");
+    }
+  },
+  false
+);

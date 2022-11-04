@@ -78,63 +78,166 @@ e.addEventListener(
   false
 );
 
-function England() {
-  voteable = "1 England win the match";
-  document.getElementById("England").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function IR() {
-  voteable = "1 IR Iran win the match";
-  document.getElementById("IR").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function USA() {
-  voteable = "1 USA win the match";
-  document.getElementById("USA").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Wales() {
-  voteable = "1 Wales win the match";
-  document.getElementById("Wales").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Wale() {
-  voteable = "1 Wales win the match";
-  document.getElementById("Wale").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Iran() {
-  voteable = "1 IR Iran win the match";
-  document.getElementById("Iran").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Englan() {
-  voteable = "1 England win the match";
-  document.getElementById("Englan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function US() {
-  voteable = "1 USA win the match";
-  document.getElementById("US").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Wal() {
-  voteable = "1 Wales win the match";
-  document.getElementById("Wal").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Engla() {
-  voteable = "1 England win the match";
-  document.getElementById("Engla").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ira() {
-  voteable = "1 Iran win the match";
-  document.getElementById("Ira").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function SA() {
-  voteable = "1 USA win the match";
-  document.getElementById("SA").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var England = document.getElementById("England");
+England.addEventListener(
+  "click",
+  function () {
+    if (England.getAttribute("data-text") == England.innerHTML) {
+      England.innerHTML = England.getAttribute("data-text1");
+    } else {
+      England.setAttribute("data-text1", England.innerHTML);
+      England.innerHTML = England.getAttribute("data-text");
+    }
+  },
+  false
+);
+var IR = document.getElementById("IR");
+IR.addEventListener(
+  "click",
+  function () {
+    if (IR.getAttribute("data-text") == IR.innerHTML) {
+      IR.innerHTML = IR.getAttribute("data-text1");
+    } else {
+      IR.setAttribute("data-text1", IR.innerHTML);
+      IR.innerHTML = IR.getAttribute("data-text");
+    }
+  },
+  false
+);
+var USA = document.getElementById("USA");
+USA.addEventListener(
+  "click",
+  function () {
+    if (USA.getAttribute("data-text") == USA.innerHTML) {
+      USA.innerHTML = USA.getAttribute("data-text1");
+    } else {
+      USA.setAttribute("data-text1", USA.innerHTML);
+      USA.innerHTML = USA.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Wales = document.getElementById("Wales");
+Wales.addEventListener(
+  "click",
+  function () {
+    if (Wales.getAttribute("data-text") == Wales.innerHTML) {
+      Wales.innerHTML = Wales.getAttribute("data-text1");
+    } else {
+      Wales.setAttribute("data-text1", Wales.innerHTML);
+      Wales.innerHTML = Wales.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Wale = document.getElementById("Wale");
+Wale.addEventListener(
+  "click",
+  function () {
+    if (Wale.getAttribute("data-text") == Wale.innerHTML) {
+      Wale.innerHTML = Wale.getAttribute("data-text1");
+    } else {
+      Wale.setAttribute("data-text1", Wale.innerHTML);
+      Wale.innerHTML = Wale.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Iran = document.getElementById("Iran");
+Iran.addEventListener(
+  "click",
+  function () {
+    if (Iran.getAttribute("data-text") == Iran.innerHTML) {
+      Iran.innerHTML = Iran.getAttribute("data-text1");
+    } else {
+      Iran.setAttribute("data-text1", Iran.innerHTML);
+      Iran.innerHTML = Iran.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Englan = document.getElementById("Englan");
+Englan.addEventListener(
+  "click",
+  function () {
+    if (Englan.getAttribute("data-text") == Englan.innerHTML) {
+      Englan.innerHTML = Englan.getAttribute("data-text1");
+    } else {
+      Englan.setAttribute("data-text1", Englan.innerHTML);
+      Englan.innerHTML = Englan.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var US = document.getElementById("US");
+US.addEventListener(
+  "click",
+  function () {
+    if (US.getAttribute("data-text") == US.innerHTML) {
+      US.innerHTML = US.getAttribute("data-text1");
+    } else {
+      US.setAttribute("data-text1", US.innerHTML);
+      US.innerHTML = US.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Wal = document.getElementById("Wal");
+Wal.addEventListener(
+  "click",
+  function () {
+    if (Wal.getAttribute("data-text") == Wal.innerHTML) {
+      Wal.innerHTML = Wal.getAttribute("data-text1");
+    } else {
+      Wal.setAttribute("data-text1", Wal.innerHTML);
+      Wal.innerHTML = Wal.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Engla = document.getElementById("Engla");
+Engla.addEventListener(
+  "click",
+  function () {
+    if (Engla.getAttribute("data-text") == Engla.innerHTML) {
+      Engla.innerHTML = Engla.getAttribute("data-text1");
+    } else {
+      Engla.setAttribute("data-text1", Engla.innerHTML);
+      Engla.innerHTML = Engla.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Ira = document.getElementById("Ira");
+Ira.addEventListener(
+  "click",
+  function () {
+    if (Ira.getAttribute("data-text") == Ira.innerHTML) {
+      Ira.innerHTML = Ira.getAttribute("data-text1");
+    } else {
+      Ira.setAttribute("data-text1", Ira.innerHTML);
+      Ira.innerHTML = Ira.getAttribute("data-text");
+    }
+  },
+  false
+);
+var SA = document.getElementById("SA");
+SA.addEventListener(
+  "click",
+  function () {
+    if (SA.getAttribute("data-text") == SA.innerHTML) {
+      SA.innerHTML = SA.getAttribute("data-text1");
+    } else {
+      SA.setAttribute("data-text1", SA.innerHTML);
+      SA.innerHTML = SA.getAttribute("data-text");
+    }
+  },
+  false
+);

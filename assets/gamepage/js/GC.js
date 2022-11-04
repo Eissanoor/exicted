@@ -77,69 +77,166 @@ e.addEventListener(
   },
   false
 );
-function Dr6() {
-  voteable = "1 Draw match";
-  document.getElementById("Dr6").innerHTML = voteable;
-  console.log("asd");
-  document.getElementById("btt").disabled = true;
-}
-function Argentina() {
-  voteable = "1 Argentina win the match";
-  document.getElementById("Argentina").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Saudi() {
-  voteable = "1 Saudi arab win the match";
-  document.getElementById("Saudi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Mexico() {
-  voteable = "1 Mexico win the match";
-  document.getElementById("Mexico").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Poland() {
-  voteable = "1 Poland win the match";
-  document.getElementById("Poland").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Pola() {
-  voteable = "1 Poland win the match";
-  document.getElementById("Pola").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Saud() {
-  voteable = "1 Saudi arab win the match";
-  document.getElementById("Saud").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Argentin() {
-  voteable = "1 Argentina win the match";
-  document.getElementById("Argentin").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Mexic() {
-  voteable = "1 Mexico win the match";
-  document.getElementById("Mexic").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Pol() {
-  voteable = "1 Poland win the match";
-  document.getElementById("Pol").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Argent() {
-  voteable = "1 Argentina win the match";
-  document.getElementById("Argent").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Sau() {
-  voteable = "1 Saudi arab win the match";
-  document.getElementById("Sau").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function exico() {
-  voteable = "1 Mexico arab win the match";
-  document.getElementById("exico").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+
+var Argentina = document.getElementById("Argentina");
+Argentina.addEventListener(
+  "click",
+  function () {
+    if (Argentina.getAttribute("data-text") == Argentina.innerHTML) {
+      Argentina.innerHTML = Argentina.getAttribute("data-text1");
+    } else {
+      Argentina.setAttribute("data-text1", Argentina.innerHTML);
+      Argentina.innerHTML = Argentina.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Saudi = document.getElementById("Saudi");
+Saudi.addEventListener(
+  "click",
+  function () {
+    if (Saudi.getAttribute("data-text") == Saudi.innerHTML) {
+      Saudi.innerHTML = Saudi.getAttribute("data-text1");
+    } else {
+      Saudi.setAttribute("data-text1", Saudi.innerHTML);
+      Saudi.innerHTML = Saudi.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Mexico = document.getElementById("Mexico");
+Mexico.addEventListener(
+  "click",
+  function () {
+    if (Mexico.getAttribute("data-text") == Mexico.innerHTML) {
+      Mexico.innerHTML = Mexico.getAttribute("data-text1");
+    } else {
+      Mexico.setAttribute("data-text1", Mexico.innerHTML);
+      Mexico.innerHTML = Mexico.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Poland = document.getElementById("Poland");
+Poland.addEventListener(
+  "click",
+  function () {
+    if (Poland.getAttribute("data-text") == Poland.innerHTML) {
+      Poland.innerHTML = Poland.getAttribute("data-text1");
+    } else {
+      Poland.setAttribute("data-text1", Poland.innerHTML);
+      Poland.innerHTML = Poland.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Pola = document.getElementById("Pola");
+Pola.addEventListener(
+  "click",
+  function () {
+    if (Pola.getAttribute("data-text") == Pola.innerHTML) {
+      Pola.innerHTML = Pola.getAttribute("data-text1");
+    } else {
+      Pola.setAttribute("data-text1", Pola.innerHTML);
+      Pola.innerHTML = Pola.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Saud = document.getElementById("Saud");
+Saud.addEventListener(
+  "click",
+  function () {
+    if (Saud.getAttribute("data-text") == Saud.innerHTML) {
+      Saud.innerHTML = Saud.getAttribute("data-text1");
+    } else {
+      Saud.setAttribute("data-text1", Saud.innerHTML);
+      Saud.innerHTML = Saud.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Argentin = document.getElementById("Argentin");
+Argentin.addEventListener(
+  "click",
+  function () {
+    if (Argentin.getAttribute("data-text") == Argentin.innerHTML) {
+      Argentin.innerHTML = Argentin.getAttribute("data-text1");
+    } else {
+      Argentin.setAttribute("data-text1", Argentin.innerHTML);
+      Argentin.innerHTML = Argentin.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Mexic = document.getElementById("Mexic");
+Mexic.addEventListener(
+  "click",
+  function () {
+    if (Mexic.getAttribute("data-text") == Mexic.innerHTML) {
+      Mexic.innerHTML = Mexic.getAttribute("data-text1");
+    } else {
+      Mexic.setAttribute("data-text1", Mexic.innerHTML);
+      Mexic.innerHTML = Mexic.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Pol = document.getElementById("Pol");
+Pol.addEventListener(
+  "click",
+  function () {
+    if (Pol.getAttribute("data-text") == Pol.innerHTML) {
+      Pol.innerHTML = Pol.getAttribute("data-text1");
+    } else {
+      Pol.setAttribute("data-text1", Pol.innerHTML);
+      Pol.innerHTML = Pol.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Argent = document.getElementById("Argent");
+Argent.addEventListener(
+  "click",
+  function () {
+    if (Argent.getAttribute("data-text") == Argent.innerHTML) {
+      Argent.innerHTML = Argent.getAttribute("data-text1");
+    } else {
+      Argent.setAttribute("data-text1", Argent.innerHTML);
+      Argent.innerHTML = Argent.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Sau = document.getElementById("Sau");
+Sau.addEventListener(
+  "click",
+  function () {
+    if (Sau.getAttribute("data-text") == Sau.innerHTML) {
+      Sau.innerHTML = Sau.getAttribute("data-text1");
+    } else {
+      Sau.setAttribute("data-text1", Sau.innerHTML);
+      Sau.innerHTML = Sau.getAttribute("data-text");
+    }
+  },
+  false
+);
+var exico = document.getElementById("exico");
+exico.addEventListener(
+  "click",
+  function () {
+    if (exico.getAttribute("data-text") == exico.innerHTML) {
+      exico.innerHTML = exico.getAttribute("data-text1");
+    } else {
+      exico.setAttribute("data-text1", exico.innerHTML);
+      exico.innerHTML = exico.getAttribute("data-text");
+    }
+  },
+  false
+);

@@ -623,508 +623,1339 @@ av.addEventListener(
   },
   false
 );
-function qatar() {
-  voteable = "1 qatar win the match";
-  document.getElementById("qatar").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ecuador() {
-  voteable = "3 Ecuador win the match";
-  document.getElementById("Ecuador").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
+var asd = document.getElementById("qatarasd");
+asd.addEventListener(
+  "click",
+  function () {
+    if (asd.getAttribute("data-text") == asd.innerHTML) {
+      asd.innerHTML = asd.getAttribute("data-text1");
+    } else {
+      asd.setAttribute("data-text1", asd.innerHTML);
+      asd.innerHTML = asd.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Ecuador = document.getElementById("Ecuador");
+Ecuador.addEventListener(
+  "click",
+  function () {
+    if (Ecuador.getAttribute("data-text") == Ecuador.innerHTML) {
+      Ecuador.innerHTML = Ecuador.getAttribute("data-text1");
+    } else {
+      Ecuador.setAttribute("data-text1", Ecuador.innerHTML);
+      Ecuador.innerHTML = Ecuador.getAttribute("data-text");
+    }
+  },
+  false
+);
+var england = document.getElementById("england");
+england.addEventListener(
+  "click",
+  function () {
+    if (england.getAttribute("data-text") == england.innerHTML) {
+      england.innerHTML = england.getAttribute("data-text1");
+    } else {
+      england.setAttribute("data-text1", england.innerHTML);
+      england.innerHTML = england.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-  voteable = "Input is not a number";
-}
+var Iran = document.getElementById("Iran");
+Iran.addEventListener(
+  "click",
+  function () {
+    if (Iran.getAttribute("data-text") == Iran.innerHTML) {
+      Iran.innerHTML = Iran.getAttribute("data-text1");
+    } else {
+      Iran.setAttribute("data-text1", Iran.innerHTML);
+      Iran.innerHTML = Iran.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function england() {
-  voteable = "1 england win the match";
-  document.getElementById("england").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Senegal = document.getElementById("Senegal");
+Senegal.addEventListener(
+  "click",
+  function () {
+    if (Senegal.getAttribute("data-text") == Senegal.innerHTML) {
+      Senegal.innerHTML = Senegal.getAttribute("data-text1");
+    } else {
+      Senegal.setAttribute("data-text1", Senegal.innerHTML);
+      Senegal.innerHTML = Senegal.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Iran() {
-  voteable = "3 iran win the match";
-  document.getElementById("Iran").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Netherlands = document.getElementById("Netherlands");
+Netherlands.addEventListener(
+  "click",
+  function () {
+    if (Netherlands.getAttribute("data-text") == Netherlands.innerHTML) {
+      Netherlands.innerHTML = Netherlands.getAttribute("data-text1");
+    } else {
+      Netherlands.setAttribute("data-text1", Netherlands.innerHTML);
+      Netherlands.innerHTML = Netherlands.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Senegal() {
-  voteable = "1 Senegal win the match";
-  document.getElementById("Senegal").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var usa = document.getElementById("usa");
+usa.addEventListener(
+  "click",
+  function () {
+    if (usa.getAttribute("data-text") == usa.innerHTML) {
+      usa.innerHTML = usa.getAttribute("data-text1");
+    } else {
+      usa.setAttribute("data-text1", usa.innerHTML);
+      usa.innerHTML = usa.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Wales = document.getElementById("Wales");
+Wales.addEventListener(
+  "click",
+  function () {
+    if (Wales.getAttribute("data-text") == Wales.innerHTML) {
+      Wales.innerHTML = Wales.getAttribute("data-text1");
+    } else {
+      Wales.setAttribute("data-text1", Wales.innerHTML);
+      Wales.innerHTML = Wales.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Netherlands() {
-  voteable = "3 Netherlands win the match";
-  document.getElementById("Netherlands").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Argentina = document.getElementById("Argentina");
+Argentina.addEventListener(
+  "click",
+  function () {
+    if (Argentina.getAttribute("data-text") == Argentina.innerHTML) {
+      Argentina.innerHTML = Argentina.getAttribute("data-text1");
+    } else {
+      Argentina.setAttribute("data-text1", Argentina.innerHTML);
+      Argentina.innerHTML = Argentina.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function usa() {
-  voteable = "1 USA win the match";
-  document.getElementById("usa").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Saudi = document.getElementById("Saudi");
+Saudi.addEventListener(
+  "click",
+  function () {
+    if (Saudi.getAttribute("data-text") == Saudi.innerHTML) {
+      Saudi.innerHTML = Saudi.getAttribute("data-text1");
+    } else {
+      Saudi.setAttribute("data-text1", Saudi.innerHTML);
+      Saudi.innerHTML = Saudi.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Denmark = document.getElementById("Denmark");
+Denmark.addEventListener(
+  "click",
+  function () {
+    if (Denmark.getAttribute("data-text") == Denmark.innerHTML) {
+      Denmark.innerHTML = Denmark.getAttribute("data-text1");
+    } else {
+      Denmark.setAttribute("data-text1", Denmark.innerHTML);
+      Denmark.innerHTML = Denmark.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Wales() {
-  voteable = "3 Wales win the match";
-  document.getElementById("Wales").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Argentina() {
-  voteable = "1 Argentina win the match";
-  document.getElementById("Argentina").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Tunisia = document.getElementById("Tunisia");
+Tunisia.addEventListener(
+  "click",
+  function () {
+    if (Tunisia.getAttribute("data-text") == Tunisia.innerHTML) {
+      Tunisia.innerHTML = Tunisia.getAttribute("data-text1");
+    } else {
+      Tunisia.setAttribute("data-text1", Tunisia.innerHTML);
+      Tunisia.innerHTML = Tunisia.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Saudi() {
-  voteable = "3 Saudi arab win the match";
-  document.getElementById("Saudi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Denmark() {
-  voteable = "1 Denmark win the match";
-  document.getElementById("Denmark").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Tunisia() {
-  voteable = "3 Tunisia win the match";
-  document.getElementById("Tunisia").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Mexico() {
-  voteable = "1 Mexico win the match";
-  document.getElementById("Mexico").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Poland() {
-  voteable = "3 Poland win the match";
-  document.getElementById("Poland").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function France() {
-  voteable = "1 France win the match";
-  document.getElementById("France").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Australia() {
-  voteable = "3 Australia win the match";
-  document.getElementById("Australia").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Morocco() {
-  voteable = "1 Morocco win the match";
-  document.getElementById("Morocco").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Croatia() {
-  voteable = "3 Croatia win the match";
-  document.getElementById("Croatia").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Mexico = document.getElementById("Mexico");
+Mexico.addEventListener(
+  "click",
+  function () {
+    if (Mexico.getAttribute("data-text") == Mexico.innerHTML) {
+      Mexico.innerHTML = Mexico.getAttribute("data-text1");
+    } else {
+      Mexico.setAttribute("data-text1", Mexico.innerHTML);
+      Mexico.innerHTML = Mexico.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Germany() {
-  voteable = "1 Germany win the match";
-  document.getElementById("Germany").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Japan() {
-  voteable = "3 Japan win the match";
-  document.getElementById("Japan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Poland = document.getElementById("Poland");
+Poland.addEventListener(
+  "click",
+  function () {
+    if (Poland.getAttribute("data-text") == Poland.innerHTML) {
+      Poland.innerHTML = Poland.getAttribute("data-text1");
+    } else {
+      Poland.setAttribute("data-text1", Poland.innerHTML);
+      Poland.innerHTML = Poland.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Spain() {
-  voteable = "1 Spain win the match";
-  document.getElementById("Spain").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Costa() {
-  voteable = "3 Costa win the match";
-  document.getElementById("Costa").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Belgium() {
-  voteable = "1 Belgium win the match";
-  document.getElementById("Belgium").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Canada() {
-  voteable = "3 Canada win the match";
-  document.getElementById("Canada").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var France = document.getElementById("France");
+France.addEventListener(
+  "click",
+  function () {
+    if (France.getAttribute("data-text") == France.innerHTML) {
+      France.innerHTML = France.getAttribute("data-text1");
+    } else {
+      France.setAttribute("data-text1", France.innerHTML);
+      France.innerHTML = France.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Australia = document.getElementById("Australia");
+Australia.addEventListener(
+  "click",
+  function () {
+    if (Australia.getAttribute("data-text") == Australia.innerHTML) {
+      Australia.innerHTML = Australia.getAttribute("data-text1");
+    } else {
+      Australia.setAttribute("data-text1", Australia.innerHTML);
+      Australia.innerHTML = Australia.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Switzerland() {
-  voteable = "1 Switzerland win the match";
-  document.getElementById("Switzerland").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Cameroon() {
-  voteable = "3 Cameroon win the match";
-  document.getElementById("Cameroon").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Uruguay() {
-  voteable = "1 Uruguay win the match";
-  document.getElementById("Uruguay").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Korea() {
-  voteable = "3 Korea Republic win the match";
-  document.getElementById("Korea").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Portugal() {
-  voteable = "1 Portugal Republic win the match";
-  document.getElementById("Portugal").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Morocco = document.getElementById("Morocco");
+Morocco.addEventListener(
+  "click",
+  function () {
+    if (Morocco.getAttribute("data-text") == Morocco.innerHTML) {
+      Morocco.innerHTML = Morocco.getAttribute("data-text1");
+    } else {
+      Morocco.setAttribute("data-text1", Morocco.innerHTML);
+      Morocco.innerHTML = Morocco.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Ghana() {
-  voteable = "3 Ghana Republic win the match";
-  document.getElementById("Ghana").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Croatia = document.getElementById("Croatia");
+Croatia.addEventListener(
+  "click",
+  function () {
+    if (Croatia.getAttribute("data-text") == Croatia.innerHTML) {
+      Croatia.innerHTML = Croatia.getAttribute("data-text1");
+    } else {
+      Croatia.setAttribute("data-text1", Croatia.innerHTML);
+      Croatia.innerHTML = Croatia.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Brazil() {
-  voteable = "1 Brazil Republic win the match";
-  document.getElementById("Brazil").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Germany = document.getElementById("Germany");
+Germany.addEventListener(
+  "click",
+  function () {
+    if (Germany.getAttribute("data-text") == Germany.innerHTML) {
+      Germany.innerHTML = Germany.getAttribute("data-text1");
+    } else {
+      Germany.setAttribute("data-text1", Germany.innerHTML);
+      Germany.innerHTML = Germany.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Serbia() {
-  voteable = "3 Serbia Republic win the match";
-  document.getElementById("Serbia").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Wale() {
-  voteable = "3 Wales win the match";
-  document.getElementById("Wale").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Iran() {
-  voteable = "3 Iran win the match";
-  document.getElementById("Iran").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Japan = document.getElementById("Japan");
+Japan.addEventListener(
+  "click",
+  function () {
+    if (Japan.getAttribute("data-text") == Japan.innerHTML) {
+      Japan.innerHTML = Japan.getAttribute("data-text1");
+    } else {
+      Japan.setAttribute("data-text1", Japan.innerHTML);
+      Japan.innerHTML = Japan.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function qata() {
-  voteable = "3 qatar win the match";
-  document.getElementById("qata").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Senega() {
-  voteable = "3 Senegal win the match";
-  document.getElementById("Senega").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Netherland() {
-  voteable = "3 Netherlands win the match";
-  document.getElementById("Netherland").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ecuado() {
-  voteable = "1 Ecuador win the match";
-  document.getElementById("Ecuado").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Englan() {
-  voteable = "1 England win the match";
-  document.getElementById("Englan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function USA() {
-  voteable = "1 USA win the match";
-  document.getElementById("USA").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Spain = document.getElementById("Spain");
+Spain.addEventListener(
+  "click",
+  function () {
+    if (Spain.getAttribute("data-text") == Spain.innerHTML) {
+      Spain.innerHTML = Spain.getAttribute("data-text1");
+    } else {
+      Spain.setAttribute("data-text1", Spain.innerHTML);
+      Spain.innerHTML = Spain.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Tunisi() {
-  voteable = "1 Tunisia win the match";
-  document.getElementById("Tunisi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Australi() {
-  voteable = "1 Australia win the match";
-  document.getElementById("Australi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Costa = document.getElementById("Costa");
+Costa.addEventListener(
+  "click",
+  function () {
+    if (Costa.getAttribute("data-text") == Costa.innerHTML) {
+      Costa.innerHTML = Costa.getAttribute("data-text1");
+    } else {
+      Costa.setAttribute("data-text1", Costa.innerHTML);
+      Costa.innerHTML = Costa.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Polan() {
-  voteable = "1 Poland win the match";
-  document.getElementById("Polan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Saud() {
-  voteable = "1 Saudi Arabia win the match";
-  document.getElementById("Saud").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Belgium = document.getElementById("Belgium");
+Belgium.addEventListener(
+  "click",
+  function () {
+    if (Belgium.getAttribute("data-text") == Belgium.innerHTML) {
+      Belgium.innerHTML = Belgium.getAttribute("data-text1");
+    } else {
+      Belgium.setAttribute("data-text1", Belgium.innerHTML);
+      Belgium.innerHTML = Belgium.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Franc() {
-  voteable = "1 France win the match";
-  document.getElementById("Franc").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Denmar() {
-  voteable = "1 Denmark win the match";
-  document.getElementById("Denmar").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Argentin() {
-  voteable = "1 Argentina win the match";
-  document.getElementById("Argentin").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Mexic() {
-  voteable = "1 Mexico win the match";
-  document.getElementById("Mexic").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Japa() {
-  voteable = "1 Japan win the match";
-  document.getElementById("Japa").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Rica() {
-  voteable = "1 Costa Rica win the match";
-  document.getElementById("Rica").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Belgiu() {
-  voteable = "1 Belgium win the match";
-  document.getElementById("Belgiu").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Morocc() {
-  voteable = "1 Morocco win the match";
-  document.getElementById("Morocc").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Croati() {
-  voteable = "1 Croatia win the match";
-  document.getElementById("Croati").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Canad() {
-  voteable = "1 Canada win the match";
-  document.getElementById("Canad").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Spai() {
-  voteable = "1 Spain win the match";
-  document.getElementById("Spai").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function German() {
-  voteable = "1 Germany win the match";
-  document.getElementById("German").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Cameroo() {
-  voteable = "1 Cameroon win the match";
-  document.getElementById("Cameroo").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Serbi() {
-  voteable = "1 Serbia win the match";
-  document.getElementById("Serbi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Republic() {
-  voteable = "1 Korea Republic win the match";
-  document.getElementById("Republic").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ghan() {
-  voteable = "1 Ghana win the match";
-  document.getElementById("Ghan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Brazi() {
-  voteable = "1 Brazil win the match";
-  document.getElementById("Brazi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Switzerlan() {
-  voteable = "1 Switzerlan win the match";
-  document.getElementById("Switzerlan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Canada = document.getElementById("Canada");
+Canada.addEventListener(
+  "click",
+  function () {
+    if (Canada.getAttribute("data-text") == Canada.innerHTML) {
+      Canada.innerHTML = Canada.getAttribute("data-text1");
+    } else {
+      Canada.setAttribute("data-text1", Canada.innerHTML);
+      Canada.innerHTML = Canada.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Portuga() {
-  voteable = "1 Portugal win the match";
-  document.getElementById("Portuga").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Urugua() {
-  voteable = "1 Uruguay win the match";
-  document.getElementById("Urugua").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ecuad() {
-  voteable = "1 Ecuador win the match";
-  document.getElementById("Ecuad").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Seneg() {
-  voteable = "1 Senegal win the match";
-  document.getElementById("Seneg").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Netherlan() {
-  voteable = "1 Netherlands win the match";
-  document.getElementById("Netherlan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Qat() {
-  voteable = "1 Qatar win the match";
-  document.getElementById("Qat").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Switzerland = document.getElementById("Switzerland");
+Switzerland.addEventListener(
+  "click",
+  function () {
+    if (Switzerland.getAttribute("data-text") == Switzerland.innerHTML) {
+      Switzerland.innerHTML = Switzerland.getAttribute("data-text1");
+    } else {
+      Switzerland.setAttribute("data-text1", Switzerland.innerHTML);
+      Switzerland.innerHTML = Switzerland.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Wal() {
-  voteable = "1 Wales win the match";
-  document.getElementById("Wal").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Engla() {
-  voteable = "1 England win the match";
-  document.getElementById("Engla").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function IR() {
-  voteable = "1 IR Iran win the match";
-  document.getElementById("IR").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function U() {
-  voteable = "1 USA win the match";
-  document.getElementById("U").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Denma() {
-  voteable = "1 Denmark win the match";
-  document.getElementById("Denma").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Austral() {
-  voteable = "1 Australia win the match";
-  document.getElementById("Austral").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Cameroon = document.getElementById("Cameroon");
+Cameroon.addEventListener(
+  "click",
+  function () {
+    if (Cameroon.getAttribute("data-text") == Cameroon.innerHTML) {
+      Cameroon.innerHTML = Cameroon.getAttribute("data-text1");
+    } else {
+      Cameroon.setAttribute("data-text1", Cameroon.innerHTML);
+      Cameroon.innerHTML = Cameroon.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Tunis() {
-  voteable = "1 Tunisia win the match";
-  document.getElementById("Tunis").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Fran() {
-  voteable = "1 France win the match";
-  document.getElementById("Fran").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Uruguay = document.getElementById("Uruguay");
+Uruguay.addEventListener(
+  "click",
+  function () {
+    if (Uruguay.getAttribute("data-text") == Uruguay.innerHTML) {
+      Uruguay.innerHTML = Uruguay.getAttribute("data-text1");
+    } else {
+      Uruguay.setAttribute("data-text1", Uruguay.innerHTML);
+      Uruguay.innerHTML = Uruguay.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Pola() {
-  voteable = "1 Poland win the match";
-  document.getElementById("Pola").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Argent() {
-  voteable = "1 Argentina win the match";
-  document.getElementById("Argent").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Arabi() {
-  voteable = "1 sudia Arabia win the match";
-  document.getElementById("Arabi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Mexi() {
-  voteable = "1 Mexico win the match";
-  document.getElementById("Mexi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Croat() {
-  voteable = "1 Croatia win the match";
-  document.getElementById("Croat").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Belgi() {
-  voteable = "1 Belgium win the match";
-  document.getElementById("Belgi").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Korea = document.getElementById("Korea");
+Korea.addEventListener(
+  "click",
+  function () {
+    if (Korea.getAttribute("data-text") == Korea.innerHTML) {
+      Korea.innerHTML = Korea.getAttribute("data-text1");
+    } else {
+      Korea.setAttribute("data-text1", Korea.innerHTML);
+      Korea.innerHTML = Korea.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Cana() {
-  voteable = "1 Canada win the match";
-  document.getElementById("Cana").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Moro() {
-  voteable = "1 Morocco win the match";
-  document.getElementById("Moro").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Jap() {
-  voteable = "1 Japan win the match";
-  document.getElementById("Jap").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Spa() {
-  voteable = "1 Spain win the match";
-  document.getElementById("Spa").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Cos() {
-  voteable = "1 Costa rica win the match";
-  document.getElementById("Cos").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Germa() {
-  voteable = "1 Germany win the match";
-  document.getElementById("Germa").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Gha() {
-  voteable = "1 Ghana win the match";
-  document.getElementById("Gha").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Urugu() {
-  voteable = "1 Uruguay win the match";
-  document.getElementById("Urugu").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Portugal = document.getElementById("Portugal");
+Portugal.addEventListener(
+  "click",
+  function () {
+    if (Portugal.getAttribute("data-text") == Portugal.innerHTML) {
+      Portugal.innerHTML = Portugal.getAttribute("data-text1");
+    } else {
+      Portugal.setAttribute("data-text1", Portugal.innerHTML);
+      Portugal.innerHTML = Portugal.getAttribute("data-text");
+    }
+  },
+  false
+);
 
-function Republ() {
-  voteable = "1 Korea Republic win the match";
-  document.getElementById("Republ").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Portug() {
-  voteable = "1 Portugal win the match";
-  document.getElementById("Portug").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Serb() {
-  voteable = "1 Serbia win the match";
-  document.getElementById("Serb").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Switzerla() {
-  voteable = "1 Switzerland win the match";
-  document.getElementById("Switzerla").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Camero() {
-  voteable = "1 Cameroon win the match";
-  document.getElementById("Camero").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Bra() {
-  voteable = "1 Brazil win the match";
-  document.getElementById("Bra").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Ghana = document.getElementById("Ghana");
+Ghana.addEventListener(
+  "click",
+  function () {
+    if (Ghana.getAttribute("data-text") == Ghana.innerHTML) {
+      Ghana.innerHTML = Ghana.getAttribute("data-text1");
+    } else {
+      Ghana.setAttribute("data-text1", Ghana.innerHTML);
+      Ghana.innerHTML = Ghana.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Brazil = document.getElementById("Brazil");
+Brazil.addEventListener(
+  "click",
+  function () {
+    if (Brazil.getAttribute("data-text") == Brazil.innerHTML) {
+      Brazil.innerHTML = Brazil.getAttribute("data-text1");
+    } else {
+      Brazil.setAttribute("data-text1", Brazil.innerHTML);
+      Brazil.innerHTML = Brazil.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Serbia = document.getElementById("Serbia");
+Serbia.addEventListener(
+  "click",
+  function () {
+    if (Serbia.getAttribute("data-text") == Serbia.innerHTML) {
+      Serbia.innerHTML = Serbia.getAttribute("data-text1");
+    } else {
+      Serbia.setAttribute("data-text1", Serbia.innerHTML);
+      Serbia.innerHTML = Serbia.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Wale = document.getElementById("Wale");
+Wale.addEventListener(
+  "click",
+  function () {
+    if (Wale.getAttribute("data-text") == Wale.innerHTML) {
+      Wale.innerHTML = Wale.getAttribute("data-text1");
+    } else {
+      Wale.setAttribute("data-text1", Wale.innerHTML);
+      Wale.innerHTML = Wale.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Iran = document.getElementById("Iran");
+Iran.addEventListener(
+  "click",
+  function () {
+    if (Iran.getAttribute("data-text") == Iran.innerHTML) {
+      Iran.innerHTML = Iran.getAttribute("data-text1");
+    } else {
+      Iran.setAttribute("data-text1", Iran.innerHTML);
+      Iran.innerHTML = Iran.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var qata = document.getElementById("qata");
+qata.addEventListener(
+  "click",
+  function () {
+    if (qata.getAttribute("data-text") == qata.innerHTML) {
+      qata.innerHTML = qata.getAttribute("data-text1");
+    } else {
+      qata.setAttribute("data-text1", qata.innerHTML);
+      qata.innerHTML = qata.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Senega = document.getElementById("Senega");
+Senega.addEventListener(
+  "click",
+  function () {
+    if (Senega.getAttribute("data-text") == Senega.innerHTML) {
+      Senega.innerHTML = Senega.getAttribute("data-text1");
+    } else {
+      Senega.setAttribute("data-text1", Senega.innerHTML);
+      Senega.innerHTML = Senega.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Netherland = document.getElementById("Netherland");
+Netherland.addEventListener(
+  "click",
+  function () {
+    if (Netherland.getAttribute("data-text") == Netherland.innerHTML) {
+      Netherland.innerHTML = Netherland.getAttribute("data-text1");
+    } else {
+      Netherland.setAttribute("data-text1", Netherland.innerHTML);
+      Netherland.innerHTML = Netherland.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Ecuado = document.getElementById("Ecuado");
+Ecuado.addEventListener(
+  "click",
+  function () {
+    if (Ecuado.getAttribute("data-text") == Ecuado.innerHTML) {
+      Ecuado.innerHTML = Ecuado.getAttribute("data-text1");
+    } else {
+      Ecuado.setAttribute("data-text1", Ecuado.innerHTML);
+      Ecuado.innerHTML = Ecuado.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Englan = document.getElementById("Englan");
+Englan.addEventListener(
+  "click",
+  function () {
+    if (Englan.getAttribute("data-text") == Englan.innerHTML) {
+      Englan.innerHTML = Englan.getAttribute("data-text1");
+    } else {
+      Englan.setAttribute("data-text1", Englan.innerHTML);
+      Englan.innerHTML = Englan.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var USA = document.getElementById("USA");
+USA.addEventListener(
+  "click",
+  function () {
+    if (USA.getAttribute("data-text") == USA.innerHTML) {
+      USA.innerHTML = USA.getAttribute("data-text1");
+    } else {
+      USA.setAttribute("data-text1", USA.innerHTML);
+      USA.innerHTML = USA.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Tunisi = document.getElementById("Tunisi");
+Tunisi.addEventListener(
+  "click",
+  function () {
+    if (Tunisi.getAttribute("data-text") == Tunisi.innerHTML) {
+      Tunisi.innerHTML = Tunisi.getAttribute("data-text1");
+    } else {
+      Tunisi.setAttribute("data-text1", Tunisi.innerHTML);
+      Tunisi.innerHTML = Tunisi.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Australi = document.getElementById("Australi");
+Australi.addEventListener(
+  "click",
+  function () {
+    if (Australi.getAttribute("data-text") == Australi.innerHTML) {
+      Australi.innerHTML = Australi.getAttribute("data-text1");
+    } else {
+      Australi.setAttribute("data-text1", Australi.innerHTML);
+      Australi.innerHTML = Australi.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Polan = document.getElementById("Polan");
+Polan.addEventListener(
+  "click",
+  function () {
+    if (Polan.getAttribute("data-text") == Polan.innerHTML) {
+      Polan.innerHTML = Polan.getAttribute("data-text1");
+    } else {
+      Polan.setAttribute("data-text1", Polan.innerHTML);
+      Polan.innerHTML = Polan.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Saud = document.getElementById("Saud");
+Saud.addEventListener(
+  "click",
+  function () {
+    if (Saud.getAttribute("data-text") == Saud.innerHTML) {
+      Saud.innerHTML = Saud.getAttribute("data-text1");
+    } else {
+      Saud.setAttribute("data-text1", Saud.innerHTML);
+      Saud.innerHTML = Saud.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Franc = document.getElementById("Franc");
+Franc.addEventListener(
+  "click",
+  function () {
+    if (Franc.getAttribute("data-text") == Franc.innerHTML) {
+      Franc.innerHTML = Franc.getAttribute("data-text1");
+    } else {
+      Franc.setAttribute("data-text1", Franc.innerHTML);
+      Franc.innerHTML = Franc.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Denmar = document.getElementById("Denmar");
+Denmar.addEventListener(
+  "click",
+  function () {
+    if (Denmar.getAttribute("data-text") == Denmar.innerHTML) {
+      Denmar.innerHTML = Denmar.getAttribute("data-text1");
+    } else {
+      Denmar.setAttribute("data-text1", Denmar.innerHTML);
+      Denmar.innerHTML = Denmar.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Argentin = document.getElementById("Argentin");
+Argentin.addEventListener(
+  "click",
+  function () {
+    if (Argentin.getAttribute("data-text") == Argentin.innerHTML) {
+      Argentin.innerHTML = Argentin.getAttribute("data-text1");
+    } else {
+      Argentin.setAttribute("data-text1", Argentin.innerHTML);
+      Argentin.innerHTML = Argentin.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Mexic = document.getElementById("Mexic");
+Mexic.addEventListener(
+  "click",
+  function () {
+    if (Mexic.getAttribute("data-text") == Mexic.innerHTML) {
+      Mexic.innerHTML = Mexic.getAttribute("data-text1");
+    } else {
+      Mexic.setAttribute("data-text1", Mexic.innerHTML);
+      Mexic.innerHTML = Mexic.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Japa = document.getElementById("Japa");
+Japa.addEventListener(
+  "click",
+  function () {
+    if (Japa.getAttribute("data-text") == Japa.innerHTML) {
+      Japa.innerHTML = Japa.getAttribute("data-text1");
+    } else {
+      Japa.setAttribute("data-text1", Japa.innerHTML);
+      Japa.innerHTML = Japa.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Rica = document.getElementById("Rica");
+Rica.addEventListener(
+  "click",
+  function () {
+    if (Rica.getAttribute("data-text") == Rica.innerHTML) {
+      Rica.innerHTML = Rica.getAttribute("data-text1");
+    } else {
+      Rica.setAttribute("data-text1", Rica.innerHTML);
+      Rica.innerHTML = Rica.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Belgiu = document.getElementById("Belgiu");
+Belgiu.addEventListener(
+  "click",
+  function () {
+    if (Belgiu.getAttribute("data-text") == Belgiu.innerHTML) {
+      Belgiu.innerHTML = Belgiu.getAttribute("data-text1");
+    } else {
+      Belgiu.setAttribute("data-text1", Belgiu.innerHTML);
+      Belgiu.innerHTML = Belgiu.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Morocc = document.getElementById("Morocc");
+Morocc.addEventListener(
+  "click",
+  function () {
+    if (Morocc.getAttribute("data-text") == Morocc.innerHTML) {
+      Morocc.innerHTML = Morocc.getAttribute("data-text1");
+    } else {
+      Morocc.setAttribute("data-text1", Morocc.innerHTML);
+      Morocc.innerHTML = Morocc.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Croati = document.getElementById("Croati");
+Croati.addEventListener(
+  "click",
+  function () {
+    if (Croati.getAttribute("data-text") == Croati.innerHTML) {
+      Croati.innerHTML = Croati.getAttribute("data-text1");
+    } else {
+      Croati.setAttribute("data-text1", Croati.innerHTML);
+      Croati.innerHTML = Croati.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Canad = document.getElementById("Canad");
+Canad.addEventListener(
+  "click",
+  function () {
+    if (Canad.getAttribute("data-text") == Canad.innerHTML) {
+      Canad.innerHTML = Canad.getAttribute("data-text1");
+    } else {
+      Canad.setAttribute("data-text1", Canad.innerHTML);
+      Canad.innerHTML = Canad.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Spai = document.getElementById("Spai");
+Spai.addEventListener(
+  "click",
+  function () {
+    if (Spai.getAttribute("data-text") == Spai.innerHTML) {
+      Spai.innerHTML = Spai.getAttribute("data-text1");
+    } else {
+      Spai.setAttribute("data-text1", Spai.innerHTML);
+      Spai.innerHTML = Spai.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var German = document.getElementById("German");
+German.addEventListener(
+  "click",
+  function () {
+    if (German.getAttribute("data-text") == German.innerHTML) {
+      German.innerHTML = German.getAttribute("data-text1");
+    } else {
+      German.setAttribute("data-text1", German.innerHTML);
+      German.innerHTML = German.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Cameroo = document.getElementById("Cameroo");
+Cameroo.addEventListener(
+  "click",
+  function () {
+    if (Cameroo.getAttribute("data-text") == Cameroo.innerHTML) {
+      Cameroo.innerHTML = Cameroo.getAttribute("data-text1");
+    } else {
+      Cameroo.setAttribute("data-text1", Cameroo.innerHTML);
+      Cameroo.innerHTML = Cameroo.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Serbi = document.getElementById("Serbi");
+Serbi.addEventListener(
+  "click",
+  function () {
+    if (Serbi.getAttribute("data-text") == Serbi.innerHTML) {
+      Serbi.innerHTML = Serbi.getAttribute("data-text1");
+    } else {
+      Serbi.setAttribute("data-text1", Serbi.innerHTML);
+      Serbi.innerHTML = Serbi.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Republic = document.getElementById("Republic");
+Republic.addEventListener(
+  "click",
+  function () {
+    if (Republic.getAttribute("data-text") == Republic.innerHTML) {
+      Republic.innerHTML = Republic.getAttribute("data-text1");
+    } else {
+      Republic.setAttribute("data-text1", Republic.innerHTML);
+      Republic.innerHTML = Republic.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Ghan = document.getElementById("Ghan");
+Ghan.addEventListener(
+  "click",
+  function () {
+    if (Ghan.getAttribute("data-text") == Ghan.innerHTML) {
+      Ghan.innerHTML = Ghan.getAttribute("data-text1");
+    } else {
+      Ghan.setAttribute("data-text1", Ghan.innerHTML);
+      Ghan.innerHTML = Ghan.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Brazi = document.getElementById("Brazi");
+Brazi.addEventListener(
+  "click",
+  function () {
+    if (Brazi.getAttribute("data-text") == Brazi.innerHTML) {
+      Brazi.innerHTML = Brazi.getAttribute("data-text1");
+    } else {
+      Brazi.setAttribute("data-text1", Brazi.innerHTML);
+      Brazi.innerHTML = Brazi.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Switzerlan = document.getElementById("Switzerlan");
+Switzerlan.addEventListener(
+  "click",
+  function () {
+    if (Switzerlan.getAttribute("data-text") == Switzerlan.innerHTML) {
+      Switzerlan.innerHTML = Switzerlan.getAttribute("data-text1");
+    } else {
+      Switzerlan.setAttribute("data-text1", Switzerlan.innerHTML);
+      Switzerlan.innerHTML = Switzerlan.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Portuga = document.getElementById("Portuga");
+Portuga.addEventListener(
+  "click",
+  function () {
+    if (Portuga.getAttribute("data-text") == Portuga.innerHTML) {
+      Portuga.innerHTML = Portuga.getAttribute("data-text1");
+    } else {
+      Portuga.setAttribute("data-text1", Portuga.innerHTML);
+      Portuga.innerHTML = Portuga.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Urugua = document.getElementById("Urugua");
+Urugua.addEventListener(
+  "click",
+  function () {
+    if (Urugua.getAttribute("data-text") == Urugua.innerHTML) {
+      Urugua.innerHTML = Urugua.getAttribute("data-text1");
+    } else {
+      Urugua.setAttribute("data-text1", Urugua.innerHTML);
+      Urugua.innerHTML = Urugua.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Ecuad = document.getElementById("Ecuad");
+Ecuad.addEventListener(
+  "click",
+  function () {
+    if (Ecuad.getAttribute("data-text") == Ecuad.innerHTML) {
+      Ecuad.innerHTML = Ecuad.getAttribute("data-text1");
+    } else {
+      Ecuad.setAttribute("data-text1", Ecuad.innerHTML);
+      Ecuad.innerHTML = Ecuad.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Seneg = document.getElementById("Seneg");
+Seneg.addEventListener(
+  "click",
+  function () {
+    if (Seneg.getAttribute("data-text") == Seneg.innerHTML) {
+      Seneg.innerHTML = Seneg.getAttribute("data-text1");
+    } else {
+      Seneg.setAttribute("data-text1", Seneg.innerHTML);
+      Seneg.innerHTML = Seneg.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Netherlan = document.getElementById("Netherlan");
+Netherlan.addEventListener(
+  "click",
+  function () {
+    if (Netherlan.getAttribute("data-text") == Netherlan.innerHTML) {
+      Netherlan.innerHTML = Netherlan.getAttribute("data-text1");
+    } else {
+      Netherlan.setAttribute("data-text1", Netherlan.innerHTML);
+      Netherlan.innerHTML = Netherlan.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Qat = document.getElementById("Qat");
+Qat.addEventListener(
+  "click",
+  function () {
+    if (Qat.getAttribute("data-text") == Qat.innerHTML) {
+      Qat.innerHTML = Qat.getAttribute("data-text1");
+    } else {
+      Qat.setAttribute("data-text1", Qat.innerHTML);
+      Qat.innerHTML = Qat.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Wal = document.getElementById("Wal");
+Wal.addEventListener(
+  "click",
+  function () {
+    if (Wal.getAttribute("data-text") == Wal.innerHTML) {
+      Wal.innerHTML = Wal.getAttribute("data-text1");
+    } else {
+      Wal.setAttribute("data-text1", Wal.innerHTML);
+      Wal.innerHTML = Wal.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Engla = document.getElementById("Engla");
+Engla.addEventListener(
+  "click",
+  function () {
+    if (Engla.getAttribute("data-text") == Engla.innerHTML) {
+      Engla.innerHTML = Engla.getAttribute("data-text1");
+    } else {
+      Engla.setAttribute("data-text1", Engla.innerHTML);
+      Engla.innerHTML = Engla.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var IR = document.getElementById("IR");
+IR.addEventListener(
+  "click",
+  function () {
+    if (IR.getAttribute("data-text") == IR.innerHTML) {
+      IR.innerHTML = IR.getAttribute("data-text1");
+    } else {
+      IR.setAttribute("data-text1", IR.innerHTML);
+      IR.innerHTML = IR.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var U = document.getElementById("U");
+U.addEventListener(
+  "click",
+  function () {
+    if (U.getAttribute("data-text") == U.innerHTML) {
+      U.innerHTML = U.getAttribute("data-text1");
+    } else {
+      U.setAttribute("data-text1", U.innerHTML);
+      U.innerHTML = U.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Denma = document.getElementById("Denma");
+Denma.addEventListener(
+  "click",
+  function () {
+    if (Denma.getAttribute("data-text") == Denma.innerHTML) {
+      Denma.innerHTML = Denma.getAttribute("data-text1");
+    } else {
+      Denma.setAttribute("data-text1", Denma.innerHTML);
+      Denma.innerHTML = Denma.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Austral = document.getElementById("Austral");
+Austral.addEventListener(
+  "click",
+  function () {
+    if (Austral.getAttribute("data-text") == Austral.innerHTML) {
+      Austral.innerHTML = Austral.getAttribute("data-text1");
+    } else {
+      Austral.setAttribute("data-text1", Austral.innerHTML);
+      Austral.innerHTML = Austral.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Tunis = document.getElementById("Tunis");
+Tunis.addEventListener(
+  "click",
+  function () {
+    if (Tunis.getAttribute("data-text") == Tunis.innerHTML) {
+      Tunis.innerHTML = Tunis.getAttribute("data-text1");
+    } else {
+      Tunis.setAttribute("data-text1", Tunis.innerHTML);
+      Tunis.innerHTML = Tunis.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Fran = document.getElementById("Fran");
+Fran.addEventListener(
+  "click",
+  function () {
+    if (Fran.getAttribute("data-text") == Fran.innerHTML) {
+      Fran.innerHTML = Fran.getAttribute("data-text1");
+    } else {
+      Fran.setAttribute("data-text1", Fran.innerHTML);
+      Fran.innerHTML = Fran.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Pola = document.getElementById("Pola");
+Pola.addEventListener(
+  "click",
+  function () {
+    if (Pola.getAttribute("data-text") == Pola.innerHTML) {
+      Pola.innerHTML = Pola.getAttribute("data-text1");
+    } else {
+      Pola.setAttribute("data-text1", Pola.innerHTML);
+      Pola.innerHTML = Pola.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Argent = document.getElementById("Argent");
+Argent.addEventListener(
+  "click",
+  function () {
+    if (Argent.getAttribute("data-text") == Argent.innerHTML) {
+      Argent.innerHTML = Argent.getAttribute("data-text1");
+    } else {
+      Argent.setAttribute("data-text1", Argent.innerHTML);
+      Argent.innerHTML = Argent.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Arabi = document.getElementById("Arabi");
+Arabi.addEventListener(
+  "click",
+  function () {
+    if (Arabi.getAttribute("data-text") == Arabi.innerHTML) {
+      Arabi.innerHTML = Arabi.getAttribute("data-text1");
+    } else {
+      Arabi.setAttribute("data-text1", Arabi.innerHTML);
+      Arabi.innerHTML = Arabi.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Mexi = document.getElementById("Mexi");
+Mexi.addEventListener(
+  "click",
+  function () {
+    if (Mexi.getAttribute("data-text") == Mexi.innerHTML) {
+      Mexi.innerHTML = Mexi.getAttribute("data-text1");
+    } else {
+      Mexi.setAttribute("data-text1", Mexi.innerHTML);
+      Mexi.innerHTML = Mexi.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Croat = document.getElementById("Croat");
+Croat.addEventListener(
+  "click",
+  function () {
+    if (Croat.getAttribute("data-text") == Croat.innerHTML) {
+      Croat.innerHTML = Croat.getAttribute("data-text1");
+    } else {
+      Croat.setAttribute("data-text1", Croat.innerHTML);
+      Croat.innerHTML = Croat.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Belgi = document.getElementById("Belgi");
+Belgi.addEventListener(
+  "click",
+  function () {
+    if (Belgi.getAttribute("data-text") == Belgi.innerHTML) {
+      Belgi.innerHTML = Belgi.getAttribute("data-text1");
+    } else {
+      Belgi.setAttribute("data-text1", Belgi.innerHTML);
+      Belgi.innerHTML = Belgi.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Cana = document.getElementById("Cana");
+Cana.addEventListener(
+  "click",
+  function () {
+    if (Cana.getAttribute("data-text") == Cana.innerHTML) {
+      Cana.innerHTML = Cana.getAttribute("data-text1");
+    } else {
+      Cana.setAttribute("data-text1", Cana.innerHTML);
+      Cana.innerHTML = Cana.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Moro = document.getElementById("Moro");
+Moro.addEventListener(
+  "click",
+  function () {
+    if (Moro.getAttribute("data-text") == Moro.innerHTML) {
+      Moro.innerHTML = Moro.getAttribute("data-text1");
+    } else {
+      Moro.setAttribute("data-text1", Moro.innerHTML);
+      Moro.innerHTML = Moro.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Jap = document.getElementById("Jap");
+Jap.addEventListener(
+  "click",
+  function () {
+    if (Jap.getAttribute("data-text") == Jap.innerHTML) {
+      Jap.innerHTML = Jap.getAttribute("data-text1");
+    } else {
+      Jap.setAttribute("data-text1", Jap.innerHTML);
+      Jap.innerHTML = Jap.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Spa = document.getElementById("Spa");
+Spa.addEventListener(
+  "click",
+  function () {
+    if (Spa.getAttribute("data-text") == Spa.innerHTML) {
+      Spa.innerHTML = Spa.getAttribute("data-text1");
+    } else {
+      Spa.setAttribute("data-text1", Spa.innerHTML);
+      Spa.innerHTML = Spa.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Cos = document.getElementById("Cos");
+Cos.addEventListener(
+  "click",
+  function () {
+    if (Cos.getAttribute("data-text") == Cos.innerHTML) {
+      Cos.innerHTML = Cos.getAttribute("data-text1");
+    } else {
+      Cos.setAttribute("data-text1", Cos.innerHTML);
+      Cos.innerHTML = Cos.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Germa = document.getElementById("Germa");
+Germa.addEventListener(
+  "click",
+  function () {
+    if (Germa.getAttribute("data-text") == Germa.innerHTML) {
+      Germa.innerHTML = Germa.getAttribute("data-text1");
+    } else {
+      Germa.setAttribute("data-text1", Germa.innerHTML);
+      Germa.innerHTML = Germa.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Gha = document.getElementById("Gha");
+Gha.addEventListener(
+  "click",
+  function () {
+    if (Gha.getAttribute("data-text") == Gha.innerHTML) {
+      Gha.innerHTML = Gha.getAttribute("data-text1");
+    } else {
+      Gha.setAttribute("data-text1", Gha.innerHTML);
+      Gha.innerHTML = Gha.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Urugu = document.getElementById("Urugu");
+Urugu.addEventListener(
+  "click",
+  function () {
+    if (Urugu.getAttribute("data-text") == Urugu.innerHTML) {
+      Urugu.innerHTML = Urugu.getAttribute("data-text1");
+    } else {
+      Urugu.setAttribute("data-text1", Urugu.innerHTML);
+      Urugu.innerHTML = Urugu.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Republ = document.getElementById("Republ");
+Republ.addEventListener(
+  "click",
+  function () {
+    if (Republ.getAttribute("data-text") == Republ.innerHTML) {
+      Republ.innerHTML = Republ.getAttribute("data-text1");
+    } else {
+      Republ.setAttribute("data-text1", Republ.innerHTML);
+      Republ.innerHTML = Republ.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Portug = document.getElementById("Portug");
+Portug.addEventListener(
+  "click",
+  function () {
+    if (Portug.getAttribute("data-text") == Portug.innerHTML) {
+      Portug.innerHTML = Portug.getAttribute("data-text1");
+    } else {
+      Portug.setAttribute("data-text1", Portug.innerHTML);
+      Portug.innerHTML = Portug.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Serb = document.getElementById("Serb");
+Serb.addEventListener(
+  "click",
+  function () {
+    if (Serb.getAttribute("data-text") == Serb.innerHTML) {
+      Serb.innerHTML = Serb.getAttribute("data-text1");
+    } else {
+      Serb.setAttribute("data-text1", Serb.innerHTML);
+      Serb.innerHTML = Serb.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Switzerla = document.getElementById("Switzerla");
+Switzerla.addEventListener(
+  "click",
+  function () {
+    if (Switzerla.getAttribute("data-text") == Switzerla.innerHTML) {
+      Switzerla.innerHTML = Switzerla.getAttribute("data-text1");
+    } else {
+      Switzerla.setAttribute("data-text1", Switzerla.innerHTML);
+      Switzerla.innerHTML = Switzerla.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Camero = document.getElementById("Camero");
+Camero.addEventListener(
+  "click",
+  function () {
+    if (Camero.getAttribute("data-text") == Camero.innerHTML) {
+      Camero.innerHTML = Camero.getAttribute("data-text1");
+    } else {
+      Camero.setAttribute("data-text1", Camero.innerHTML);
+      Camero.innerHTML = Camero.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Bra = document.getElementById("Bra");
+Bra.addEventListener(
+  "click",
+  function () {
+    if (Bra.getAttribute("data-text") == Bra.innerHTML) {
+      Bra.innerHTML = Bra.getAttribute("data-text1");
+    } else {
+      Bra.setAttribute("data-text1", Bra.innerHTML);
+      Bra.innerHTML = Bra.getAttribute("data-text");
+    }
+  },
+  false
+);
+

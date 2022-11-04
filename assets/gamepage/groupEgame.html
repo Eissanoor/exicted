@@ -1,519 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./app.css" />
-  </head>
-  <body>
-    <div class="games">
-      <div class="card card__game">
-        <div class="card--container">
-          <!---->
-          <div class="card--content">
-            <div class="game">
-              <div class="game-header">
-                <div class="game-header--date">23.11.2022, 16:00</div>
-                <div class="game-header--day">1. Game Day</div>
-              </div>
-              <div class="game-teams">
-                <div class="game-team">
-                  <div class="game-team--name">Germany</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/germany.svg"
-                      title="Germany"
-                      alt="Germany"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-                <div class="game-results">
-                  <div class="game-result">-</div>
-                  <div class="game-result--spacer">:</div>
-                  <div class="game-result">-</div>
-                </div>
-                <div class="game-team game-team__reverse">
-                  <div class="game-team--name">Japan</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/japan.svg"
-                      title="Japan"
-                      alt="Japan"
-                      class="game-team--image"
-                    />
-                  </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./app.css" />
+</head>
+
+<body>
+  <div class="games">
+    <div class="card card__game">
+      <div class="card--container">
+        <!---->
+        <div class="card--content">
+          <div class="game">
+            <div class="game-header">
+              <div class="game-header--date">23.11.2022, 16:00</div>
+              <div class="game-header--day">1. Game Day</div>
+            </div>
+            <div class="game-teams">
+              <div class="game-team">
+                <div class="game-team--name">Germany</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/germany.svg" title="Germany" alt="Germany" class="game-team--image" />
                 </div>
               </div>
-              <div class="vote">
-                <div class="vote-form">
-                  <div class="vote--control">
-                    <label for="vote-1-v1" id="Germany" onclick="Germany()">
-                      Germany Win</label
-                    >
-                  </div>
-                  <div class="vote--spacer" id="Dr1" data-text="Draw match">
-                    Draw
-                  </div>
-                  <div class="vote--control">
-                    <label for="vote-1-v2" id="Japan" onclick="Japan()"
-                      >Japan Win</label
-                    >
-                  </div>
-                  <div class="game-votes">
-                    <div
-                      title="Qatar will win against Ecuador. (83%)"
-                      class="game-votes--win"
-                      style="width: 83%"
-                    ></div>
-                    <div
-                      title="The game will end with a draw. (0%)"
-                      class="game-votes--draw"
-                      style="width: 0%"
-                    ></div>
-                    <div
-                      title="Qatar will lose against Ecuador. (17%)"
-                      class="game-votes--lose"
-                      style="width: 17%"
-                    ></div>
-                  </div>
-                  <button id="btt" class="vote--button button">
-                    <!---->
-                    <!---->
-                    <a id="wall" href="https://trustwallet.com/dapp"
-                      >pool Now</a
-                    >
-                    <!---->
-                  </button>
+              <div class="game-results">
+                <div class="game-result">-</div>
+                <div class="game-result--spacer">:</div>
+                <div class="game-result">-</div>
+              </div>
+              <div class="game-team game-team__reverse">
+                <div class="game-team--name">Japan</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/japan.svg" title="Japan" alt="Japan" class="game-team--image" />
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card__game">
-        <div class="card--container">
-          <!---->
-          <div class="card--content">
-            <div class="game">
-              <div class="game-header">
-                <div class="game-header--date">23.11.2022, 19:00</div>
-                <div class="game-header--day">1. Game Day</div>
-              </div>
-              <div class="game-teams">
-                <div class="game-team">
-                  <div class="game-team--name">Spain</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/spain.svg"
-                      title="Spain"
-                      alt="Spain"
-                      class="game-team--image"
-                    />
-                  </div>
+            <div class="vote">
+              <div class="vote-form">
+                <div class="vote--control">
+                  <label for="vote-1-v1" id="Germany" data-text="Germany">
+                    Germany Win</label>
                 </div>
-                <div class="game-results">
-                  <div class="game-result">-</div>
-                  <div class="game-result--spacer">:</div>
-                  <div class="game-result">-</div>
+                <div class="vote--spacer" id="Dr1" data-text="Draw match">
+                  Draw
                 </div>
-                <div class="game-team game-team__reverse">
-                  <div class="game-team--name">Costa Rica</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/costa-rica.svg"
-                      title="Costa Rica"
-                      alt="Costa Rica"
-                      class="game-team--image"
-                    />
-                  </div>
+                <div class="vote--control">
+                  <label for="vote-1-v2" id="Japan" data-text="Japan">Japan Win</label>
                 </div>
-              </div>
-              <div class="vote">
-                <div class="vote-form">
-                  <div class="vote--control">
-                    <label for="vote-1-v1" id="Spain" onclick="Spain()">
-                      Spain Win</label
-                    >
-                  </div>
-                  <div class="vote--spacer" id="Dr2" data-text="Draw match">
-                    Draw
-                  </div>
-                  <div class="vote--control">
-                    <label for="vote-1-v2" id="Costa" onclick="Costa()"
-                      >Costa Rica Win</label
-                    >
-                  </div>
-                  <div class="game-votes">
-                    <div
-                      title="Qatar will win against Ecuador. (83%)"
-                      class="game-votes--win"
-                      style="width: 83%"
-                    ></div>
-                    <div
-                      title="The game will end with a draw. (0%)"
-                      class="game-votes--draw"
-                      style="width: 0%"
-                    ></div>
-                    <div
-                      title="Qatar will lose against Ecuador. (17%)"
-                      class="game-votes--lose"
-                      style="width: 17%"
-                    ></div>
-                  </div>
-                  <button id="btt" class="vote--button button">
-                    <!---->
-                    <!---->
-                    <a id="wall" href="https://trustwallet.com/dapp"
-                      >pool Now</a
-                    >
-                    <!---->
-                  </button>
+                <div class="game-votes">
+                  <div title="Qatar will win against Ecuador. (83%)" class="game-votes--win" style="width: 83%"></div>
+                  <div title="The game will end with a draw. (0%)" class="game-votes--draw" style="width: 0%"></div>
+                  <div title="Qatar will lose against Ecuador. (17%)" class="game-votes--lose" style="width: 17%"></div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card__game">
-        <div class="card--container">
-          <!---->
-          <div class="card--content">
-            <div class="game">
-              <div class="game-header">
-                <div class="game-header--date">27.11.2022, 13:00</div>
-                <div class="game-header--day">2. Game Day</div>
-              </div>
-              <div class="game-teams">
-                <div class="game-team">
-                  <div class="game-team--name">Japan</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/japan.svg"
-                      title="Japan"
-                      alt="Japan"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-                <div class="game-results">
-                  <div class="game-result">-</div>
-                  <div class="game-result--spacer">:</div>
-                  <div class="game-result">-</div>
-                </div>
-                <div class="game-team game-team__reverse">
-                  <div class="game-team--name">Costa Rica</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/costa-rica.svg"
-                      title="Costa Rica"
-                      alt="Costa Rica"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="vote">
-                <div class="vote-form">
-                  <div class="vote--control">
-                    <label for="vote-1-v1" id="Japa" onclick="Japa()">
-                      Japan Win</label
-                    >
-                  </div>
-                  <div class="vote--spacer" id="Dr3" data-text="Draw match">
-                    Draw
-                  </div>
-                  <div class="vote--control">
-                    <label for="vote-1-v2" id="Rica" onclick="Rica()"
-                      >Costa Rica Win</label
-                    >
-                  </div>
-                  <div class="game-votes">
-                    <div
-                      title="Qatar will win against Ecuador. (83%)"
-                      class="game-votes--win"
-                      style="width: 83%"
-                    ></div>
-                    <div
-                      title="The game will end with a draw. (0%)"
-                      class="game-votes--draw"
-                      style="width: 0%"
-                    ></div>
-                    <div
-                      title="Qatar will lose against Ecuador. (17%)"
-                      class="game-votes--lose"
-                      style="width: 17%"
-                    ></div>
-                  </div>
-                  <button id="btt" class="vote--button button">
-                    <!---->
-                    <!---->
-                    <a id="wall" href="https://trustwallet.com/dapp"
-                      >pool Now</a
-                    >
-                    <!---->
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card__game">
-        <div class="card--container">
-          <!---->
-          <div class="card--content">
-            <div class="game">
-              <div class="game-header">
-                <div class="game-header--date">27.11.2022, 22:00</div>
-                <div class="game-header--day">2. Game Day</div>
-              </div>
-              <div class="game-teams">
-                <div class="game-team">
-                  <div class="game-team--name">Spain</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/spain.svg"
-                      title="Spain"
-                      alt="Spain"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-                <div class="game-results">
-                  <div class="game-result">-</div>
-                  <div class="game-result--spacer">:</div>
-                  <div class="game-result">-</div>
-                </div>
-                <div class="game-team game-team__reverse">
-                  <div class="game-team--name">Germany</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/germany.svg"
-                      title="Germany"
-                      alt="Germany"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="vote">
-                <div class="vote-form">
-                  <div class="vote--control">
-                    <label for="vote-1-v1" id="Spai" onclick="Spai()">
-                      Spain Win</label
-                    >
-                  </div>
-                  <div class="vote--spacer" id="Dr4" data-text="Draw match">
-                    Draw
-                  </div>
-                  <div class="vote--control">
-                    <label for="vote-1-v2" id="German" onclick="German()"
-                      >Germany Win</label
-                    >
-                  </div>
-                  <div class="game-votes">
-                    <div
-                      title="Qatar will win against Ecuador. (83%)"
-                      class="game-votes--win"
-                      style="width: 83%"
-                    ></div>
-                    <div
-                      title="The game will end with a draw. (0%)"
-                      class="game-votes--draw"
-                      style="width: 0%"
-                    ></div>
-                    <div
-                      title="Qatar will lose against Ecuador. (17%)"
-                      class="game-votes--lose"
-                      style="width: 17%"
-                    ></div>
-                  </div>
-                  <button id="btt" class="vote--button button">
-                    <!---->
-                    <!---->
-                    <a id="wall" href="https://trustwallet.com/dapp"
-                      >pool Now</a
-                    >
-                    <!---->
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card__game">
-        <div class="card--container">
-          <!---->
-          <div class="card--content">
-            <div class="game">
-              <div class="game-header">
-                <div class="game-header--date">01.12.2022, 22:00</div>
-                <div class="game-header--day">3. Game Day</div>
-              </div>
-              <div class="game-teams">
-                <div class="game-team">
-                  <div class="game-team--name">Japan</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/japan.svg"
-                      title="Japan"
-                      alt="Japan"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-                <div class="game-results">
-                  <div class="game-result">-</div>
-                  <div class="game-result--spacer">:</div>
-                  <div class="game-result">-</div>
-                </div>
-                <div class="game-team game-team__reverse">
-                  <div class="game-team--name">Spain</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/spain.svg"
-                      title="Spain"
-                      alt="Spain"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="vote">
-                <div class="vote-form">
-                  <div class="vote--control">
-                    <label for="vote-1-v1" id="Jap" onclick="Jap()">
-                      Japan Win</label
-                    >
-                  </div>
-                  <div class="vote--spacer" id="Dr5" data-text="Draw match">
-                    Draw
-                  </div>
-                  <div class="vote--control">
-                    <label for="vote-1-v2" id="Spa" onclick="Spa()"
-                      >Spain Win</label
-                    >
-                  </div>
-                  <div class="game-votes">
-                    <div
-                      title="Qatar will win against Ecuador. (83%)"
-                      class="game-votes--win"
-                      style="width: 83%"
-                    ></div>
-                    <div
-                      title="The game will end with a draw. (0%)"
-                      class="game-votes--draw"
-                      style="width: 0%"
-                    ></div>
-                    <div
-                      title="Qatar will lose against Ecuador. (17%)"
-                      class="game-votes--lose"
-                      style="width: 17%"
-                    ></div>
-                  </div>
-                  <button id="btt" class="vote--button button">
-                    <!---->
-                    <!---->
-                    <a id="wall" href="https://trustwallet.com/dapp"
-                      >pool Now</a
-                    >
-                    <!---->
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card__game">
-        <div class="card--container">
-          <!---->
-          <div class="card--content">
-            <div class="game">
-              <div class="game-header">
-                <div class="game-header--date">01.12.2022, 22:00</div>
-                <div class="game-header--day">3. Game Day</div>
-              </div>
-              <div class="game-teams">
-                <div class="game-team">
-                  <div class="game-team--name">Costa Rica</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/costa-rica.svg"
-                      title="Costa Rica"
-                      alt="Costa Rica"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-                <div class="game-results">
-                  <div class="game-result">-</div>
-                  <div class="game-result--spacer">:</div>
-                  <div class="game-result">-</div>
-                </div>
-                <div class="game-team game-team__reverse">
-                  <div class="game-team--name">Germany</div>
-                  <div class="game-team--image-wrapper">
-                    <img
-                      src="./img/flags/germany.svg"
-                      title="Germany"
-                      alt="Germany"
-                      class="game-team--image"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="vote">
-                <div class="vote-form">
-                  <div class="vote--control">
-                    <label for="vote-1-v1" id="Cos" onclick="Cos()">
-                      Costa Rica Win</label
-                    >
-                  </div>
-                  <div class="vote--spacer" id="Dr6" data-text="Draw match">
-                    Draw
-                  </div>
-                  <div class="vote--control">
-                    <label for="vote-1-v2" id="Ger" onclick="Ger()"
-                      >Germany Win</label
-                    >
-                  </div>
-                  <div class="game-votes">
-                    <div
-                      title="Qatar will win against Ecuador. (83%)"
-                      class="game-votes--win"
-                      style="width: 83%"
-                    ></div>
-                    <div
-                      title="The game will end with a draw. (0%)"
-                      class="game-votes--draw"
-                      style="width: 0%"
-                    ></div>
-                    <div
-                      title="Qatar will lose against Ecuador. (17%)"
-                      class="game-votes--lose"
-                      style="width: 17%"
-                    ></div>
-                  </div>
-                  <button id="btt" class="vote--button button">
-                    <!---->
-                    <!---->
-                    <a id="wall" href="https://trustwallet.com/dapp"
-                      >pool Now</a
-                    >
-                    <!---->
-                  </button>
-                </div>
+                <button id="btt" class="vote--button button">
+                  <!---->
+                  <!---->
+                  <a id="wall" href="https://trustwallet.com/dapp">pool Now</a>
+                  <!---->
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
-  <script src="./js/GE.js"></script>
+    <div class="card card__game">
+      <div class="card--container">
+        <!---->
+        <div class="card--content">
+          <div class="game">
+            <div class="game-header">
+              <div class="game-header--date">23.11.2022, 19:00</div>
+              <div class="game-header--day">1. Game Day</div>
+            </div>
+            <div class="game-teams">
+              <div class="game-team">
+                <div class="game-team--name">Spain</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/spain.svg" title="Spain" alt="Spain" class="game-team--image" />
+                </div>
+              </div>
+              <div class="game-results">
+                <div class="game-result">-</div>
+                <div class="game-result--spacer">:</div>
+                <div class="game-result">-</div>
+              </div>
+              <div class="game-team game-team__reverse">
+                <div class="game-team--name">Costa Rica</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/costa-rica.svg" title="Costa Rica" alt="Costa Rica" class="game-team--image" />
+                </div>
+              </div>
+            </div>
+            <div class="vote">
+              <div class="vote-form">
+                <div class="vote--control">
+                  <label for="vote-1-v1" id="Spain" data-text="Spain">
+                    Spain Win</label>
+                </div>
+                <div class="vote--spacer" id="Dr2" data-text="Draw match">
+                  Draw
+                </div>
+                <div class="vote--control">
+                  <label for="vote-1-v2" id="Costa" data-text="Costa Rica">Costa Rica Win</label>
+                </div>
+                <div class="game-votes">
+                  <div title="Qatar will win against Ecuador. (83%)" class="game-votes--win" style="width: 83%"></div>
+                  <div title="The game will end with a draw. (0%)" class="game-votes--draw" style="width: 0%"></div>
+                  <div title="Qatar will lose against Ecuador. (17%)" class="game-votes--lose" style="width: 17%"></div>
+                </div>
+                <button id="btt" class="vote--button button">
+                  <!---->
+                  <!---->
+                  <a id="wall" href="https://trustwallet.com/dapp">pool Now</a>
+                  <!---->
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card card__game">
+      <div class="card--container">
+        <!---->
+        <div class="card--content">
+          <div class="game">
+            <div class="game-header">
+              <div class="game-header--date">27.11.2022, 13:00</div>
+              <div class="game-header--day">2. Game Day</div>
+            </div>
+            <div class="game-teams">
+              <div class="game-team">
+                <div class="game-team--name">Japan</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/japan.svg" title="Japan" alt="Japan" class="game-team--image" />
+                </div>
+              </div>
+              <div class="game-results">
+                <div class="game-result">-</div>
+                <div class="game-result--spacer">:</div>
+                <div class="game-result">-</div>
+              </div>
+              <div class="game-team game-team__reverse">
+                <div class="game-team--name">Costa Rica</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/costa-rica.svg" title="Costa Rica" alt="Costa Rica" class="game-team--image" />
+                </div>
+              </div>
+            </div>
+            <div class="vote">
+              <div class="vote-form">
+                <div class="vote--control">
+                  <label for="vote-1-v1" id="Japa" data-text="Japan">
+                    Japan Win</label>
+                </div>
+                <div class="vote--spacer" id="Dr3" data-text="Draw match">
+                  Draw
+                </div>
+                <div class="vote--control">
+                  <label for="vote-1-v2" id="Rica" data-text="Costa Rica">Costa Rica Win</label>
+                </div>
+                <div class="game-votes">
+                  <div title="Qatar will win against Ecuador. (83%)" class="game-votes--win" style="width: 83%"></div>
+                  <div title="The game will end with a draw. (0%)" class="game-votes--draw" style="width: 0%"></div>
+                  <div title="Qatar will lose against Ecuador. (17%)" class="game-votes--lose" style="width: 17%"></div>
+                </div>
+                <button id="btt" class="vote--button button">
+                  <!---->
+                  <!---->
+                  <a id="wall" href="https://trustwallet.com/dapp">pool Now</a>
+                  <!---->
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card card__game">
+      <div class="card--container">
+        <!---->
+        <div class="card--content">
+          <div class="game">
+            <div class="game-header">
+              <div class="game-header--date">27.11.2022, 22:00</div>
+              <div class="game-header--day">2. Game Day</div>
+            </div>
+            <div class="game-teams">
+              <div class="game-team">
+                <div class="game-team--name">Spain</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/spain.svg" title="Spain" alt="Spain" class="game-team--image" />
+                </div>
+              </div>
+              <div class="game-results">
+                <div class="game-result">-</div>
+                <div class="game-result--spacer">:</div>
+                <div class="game-result">-</div>
+              </div>
+              <div class="game-team game-team__reverse">
+                <div class="game-team--name">Germany</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/germany.svg" title="Germany" alt="Germany" class="game-team--image" />
+                </div>
+              </div>
+            </div>
+            <div class="vote">
+              <div class="vote-form">
+                <div class="vote--control">
+                  <label for="vote-1-v1" id="Spai" data-text="Spain">
+                    Spain Win</label>
+                </div>
+                <div class="vote--spacer" id="Dr4" data-text="Draw match">
+                  Draw
+                </div>
+                <div class="vote--control">
+                  <label for="vote-1-v2" id="German" data-text="Germany">Germany Win</label>
+                </div>
+                <div class="game-votes">
+                  <div title="Qatar will win against Ecuador. (83%)" class="game-votes--win" style="width: 83%"></div>
+                  <div title="The game will end with a draw. (0%)" class="game-votes--draw" style="width: 0%"></div>
+                  <div title="Qatar will lose against Ecuador. (17%)" class="game-votes--lose" style="width: 17%"></div>
+                </div>
+                <button id="btt" class="vote--button button">
+                  <!---->
+                  <!---->
+                  <a id="wall" href="https://trustwallet.com/dapp">pool Now</a>
+                  <!---->
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card card__game">
+      <div class="card--container">
+        <!---->
+        <div class="card--content">
+          <div class="game">
+            <div class="game-header">
+              <div class="game-header--date">01.12.2022, 22:00</div>
+              <div class="game-header--day">3. Game Day</div>
+            </div>
+            <div class="game-teams">
+              <div class="game-team">
+                <div class="game-team--name">Japan</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/japan.svg" title="Japan" alt="Japan" class="game-team--image" />
+                </div>
+              </div>
+              <div class="game-results">
+                <div class="game-result">-</div>
+                <div class="game-result--spacer">:</div>
+                <div class="game-result">-</div>
+              </div>
+              <div class="game-team game-team__reverse">
+                <div class="game-team--name">Spain</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/spain.svg" title="Spain" alt="Spain" class="game-team--image" />
+                </div>
+              </div>
+            </div>
+            <div class="vote">
+              <div class="vote-form">
+                <div class="vote--control">
+                  <label for="vote-1-v1" id="Jap" data-text="Japan">
+                    Japan Win</label>
+                </div>
+                <div class="vote--spacer" id="Dr5" data-text="Draw match">
+                  Draw
+                </div>
+                <div class="vote--control">
+                  <label for="vote-1-v2" id="Spa" data-text="Spain">Spain Win</label>
+                </div>
+                <div class="game-votes">
+                  <div title="Qatar will win against Ecuador. (83%)" class="game-votes--win" style="width: 83%"></div>
+                  <div title="The game will end with a draw. (0%)" class="game-votes--draw" style="width: 0%"></div>
+                  <div title="Qatar will lose against Ecuador. (17%)" class="game-votes--lose" style="width: 17%"></div>
+                </div>
+                <button id="btt" class="vote--button button">
+                  <!---->
+                  <!---->
+                  <a id="wall" href="https://trustwallet.com/dapp">pool Now</a>
+                  <!---->
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card card__game">
+      <div class="card--container">
+        <!---->
+        <div class="card--content">
+          <div class="game">
+            <div class="game-header">
+              <div class="game-header--date">01.12.2022, 22:00</div>
+              <div class="game-header--day">3. Game Day</div>
+            </div>
+            <div class="game-teams">
+              <div class="game-team">
+                <div class="game-team--name">Costa Rica</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/costa-rica.svg" title="Costa Rica" alt="Costa Rica" class="game-team--image" />
+                </div>
+              </div>
+              <div class="game-results">
+                <div class="game-result">-</div>
+                <div class="game-result--spacer">:</div>
+                <div class="game-result">-</div>
+              </div>
+              <div class="game-team game-team__reverse">
+                <div class="game-team--name">Germany</div>
+                <div class="game-team--image-wrapper">
+                  <img src="./img/flags/germany.svg" title="Germany" alt="Germany" class="game-team--image" />
+                </div>
+              </div>
+            </div>
+            <div class="vote">
+              <div class="vote-form">
+                <div class="vote--control">
+                  <label for="vote-1-v1" id="Cos" data-text=" Costa Rica">
+                    Costa Rica Win</label>
+                </div>
+                <div class="vote--spacer" id="Dr6" data-text="Draw match">
+                  Draw
+                </div>
+                <div class="vote--control">
+                  <label for="vote-1-v2" id="Ger" data-text="Germany">Germany Win</label>
+                </div>
+                <div class="game-votes">
+                  <div title="Qatar will win against Ecuador. (83%)" class="game-votes--win" style="width: 83%"></div>
+                  <div title="The game will end with a draw. (0%)" class="game-votes--draw" style="width: 0%"></div>
+                  <div title="Qatar will lose against Ecuador. (17%)" class="game-votes--lose" style="width: 17%"></div>
+                </div>
+                <button id="btt" class="vote--button button">
+                  <!---->
+                  <!---->
+                  <a id="wall" href="https://trustwallet.com/dapp">pool Now</a>
+                  <!---->
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/GE.js"></script>
+
 </html>

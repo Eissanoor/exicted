@@ -64,53 +64,135 @@ d.addEventListener(
   },
   false
 );
-function Qatar() {
-  voteable = "1 Qatar win the match";
-  document.getElementById("Qatar").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ecuador() {
-  voteable = "1 Ecuador win the match";
-  document.getElementById("Ecuador").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function England() {
-  voteable = "1 England win the match";
-  document.getElementById("England").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function IR() {
-  voteable = "1 IR win the match";
-  document.getElementById("IR").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Senegal() {
-  voteable = "1 Senegal win the match";
-  document.getElementById("Senegal").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Netherlands() {
-  voteable = "1 Netherlands win the match";
-  document.getElementById("Netherlands").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function USA() {
-  voteable = "1 USA win the match";
-  document.getElementById("USA").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Wales() {
-  voteable = "1 Wales win the match";
-  document.getElementById("Wales").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Argentina() {
-  voteable = "1 Argentina win the match";
-  document.getElementById("Argentina").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Arabia() {
-  voteable = "1 Arabia win the match";
-  document.getElementById("Arabia").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Qatar = document.getElementById("Qatar");
+Qatar.addEventListener(
+  "click",
+  function () {
+    if (Qatar.getAttribute("data-text") == Qatar.innerHTML) {
+      Qatar.innerHTML = Qatar.getAttribute("data-text1");
+    } else {
+      Qatar.setAttribute("data-text1", Qatar.innerHTML);
+      Qatar.innerHTML = Qatar.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Ecuador = document.getElementById("Ecuador");
+Ecuador.addEventListener(
+  "click",
+  function () {
+    if (Ecuador.getAttribute("data-text") == Ecuador.innerHTML) {
+      Ecuador.innerHTML = Ecuador.getAttribute("data-text1");
+    } else {
+      Ecuador.setAttribute("data-text1", Ecuador.innerHTML);
+      Ecuador.innerHTML = Ecuador.getAttribute("data-text");
+    }
+  },
+  false
+);
+var England = document.getElementById("England");
+England.addEventListener(
+  "click",
+  function () {
+    if (England.getAttribute("data-text") == England.innerHTML) {
+      England.innerHTML = England.getAttribute("data-text1");
+    } else {
+      England.setAttribute("data-text1", England.innerHTML);
+      England.innerHTML = England.getAttribute("data-text");
+    }
+  },
+  false
+);
+var IR = document.getElementById("IR");
+IR.addEventListener(
+  "click",
+  function () {
+    if (IR.getAttribute("data-text") == IR.innerHTML) {
+      IR.innerHTML = IR.getAttribute("data-text1");
+    } else {
+      IR.setAttribute("data-text1", IR.innerHTML);
+      IR.innerHTML = IR.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Senegal = document.getElementById("Senegal");
+Senegal.addEventListener(
+  "click",
+  function () {
+    if (Senegal.getAttribute("data-text") == Senegal.innerHTML) {
+      Senegal.innerHTML = Senegal.getAttribute("data-text1");
+    } else {
+      Senegal.setAttribute("data-text1", Senegal.innerHTML);
+      Senegal.innerHTML = Senegal.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Netherlands = document.getElementById("Netherlands");
+Netherlands.addEventListener(
+  "click",
+  function () {
+    if (Netherlands.getAttribute("data-text") == Netherlands.innerHTML) {
+      Netherlands.innerHTML = Netherlands.getAttribute("data-text1");
+    } else {
+      Netherlands.setAttribute("data-text1", Netherlands.innerHTML);
+      Netherlands.innerHTML = Netherlands.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var USA = document.getElementById("USA");
+USA.addEventListener(
+  "click",
+  function () {
+    if (USA.getAttribute("data-text") == USA.innerHTML) {
+      USA.innerHTML = USA.getAttribute("data-text1");
+    } else {
+      USA.setAttribute("data-text1", USA.innerHTML);
+      USA.innerHTML = USA.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Wales = document.getElementById("Wales");
+Wales.addEventListener(
+  "click",
+  function () {
+    if (Wales.getAttribute("data-text") == Wales.innerHTML) {
+      Wales.innerHTML = Wales.getAttribute("data-text1");
+    } else {
+      Wales.setAttribute("data-text1", Wales.innerHTML);
+      Wales.innerHTML = Wales.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Argentina = document.getElementById("Argentina");
+Argentina.addEventListener(
+  "click",
+  function () {
+    if (Argentina.getAttribute("data-text") == Argentina.innerHTML) {
+      Argentina.innerHTML = Argentina.getAttribute("data-text1");
+    } else {
+      Argentina.setAttribute("data-text1", Argentina.innerHTML);
+      Argentina.innerHTML = Argentina.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Arabia = document.getElementById("Arabia");
+Arabia.addEventListener(
+  "click",
+  function () {
+    if (Arabia.getAttribute("data-text") == Arabia.innerHTML) {
+      Arabia.innerHTML = Arabia.getAttribute("data-text1");
+    } else {
+      Arabia.setAttribute("data-text1", Arabia.innerHTML);
+      Arabia.innerHTML = Arabia.getAttribute("data-text");
+    }
+  },
+  false
+);

@@ -77,63 +77,161 @@ e.addEventListener(
   },
   false
 );
-function Germany() {
-  voteable = "1 Germany win the match";
-  document.getElementById("Germany").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Japan() {
-  voteable = "1 Japan win the match";
-  document.getElementById("Japan").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Spain() {
-  voteable = "1 Spain win the match";
-  document.getElementById("Spain").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Costa() {
-  voteable = "1 Costa win the match";
-  document.getElementById("Costa").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Japa() {
-  voteable = "1 Japan win the match";
-  document.getElementById("Japa").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Rica() {
-  voteable = "1 costa Rica win the match";
-  document.getElementById("Rica").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Spai() {
-  voteable = "1 Spain win the match";
-  document.getElementById("Spai").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function German() {
-  voteable = "1 Germany win the match";
-  document.getElementById("German").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Jap() {
-  voteable = "1 Japan win the match";
-  document.getElementById("Jap").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Spa() {
-  voteable = "1 Spain win the match";
-  document.getElementById("Spa").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Cos() {
-  voteable = "1 Costa rica win the match";
-  document.getElementById("Cos").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
-function Ger() {
-  voteable = "1 Germany rica win the match";
-  document.getElementById("Ger").innerHTML = voteable;
-  document.getElementById("btt").disabled = true;
-}
+var Germany = document.getElementById("Germany");
+Germany.addEventListener(
+  "click",
+  function () {
+    if (Germany.getAttribute("data-text") == Germany.innerHTML) {
+      Germany.innerHTML = Germany.getAttribute("data-text1");
+    } else {
+      Germany.setAttribute("data-text1", Germany.innerHTML);
+      Germany.innerHTML = Germany.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Japan = document.getElementById("Japan");
+Japan.addEventListener(
+  "click",
+  function () {
+    if (Japan.getAttribute("data-text") == Japan.innerHTML) {
+      Japan.innerHTML = Japan.getAttribute("data-text1");
+    } else {
+      Japan.setAttribute("data-text1", Japan.innerHTML);
+      Japan.innerHTML = Japan.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Spain = document.getElementById("Spain");
+Spain.addEventListener(
+  "click",
+  function () {
+    if (Spain.getAttribute("data-text") == Spain.innerHTML) {
+      Spain.innerHTML = Spain.getAttribute("data-text1");
+    } else {
+      Spain.setAttribute("data-text1", Spain.innerHTML);
+      Spain.innerHTML = Spain.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Costa = document.getElementById("Costa");
+Costa.addEventListener(
+  "click",
+  function () {
+    if (Costa.getAttribute("data-text") == Costa.innerHTML) {
+      Costa.innerHTML = Costa.getAttribute("data-text1");
+    } else {
+      Costa.setAttribute("data-text1", Costa.innerHTML);
+      Costa.innerHTML = Costa.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Japa = document.getElementById("Japa");
+Japa.addEventListener(
+  "click",
+  function () {
+    if (Japa.getAttribute("data-text") == Japa.innerHTML) {
+      Japa.innerHTML = Japa.getAttribute("data-text1");
+    } else {
+      Japa.setAttribute("data-text1", Japa.innerHTML);
+      Japa.innerHTML = Japa.getAttribute("data-text");
+    }
+  },
+  false
+);
+
+var Rica = document.getElementById("Rica");
+Rica.addEventListener(
+  "click",
+  function () {
+    if (Rica.getAttribute("data-text") == Rica.innerHTML) {
+      Rica.innerHTML = Rica.getAttribute("data-text1");
+    } else {
+      Rica.setAttribute("data-text1", Rica.innerHTML);
+      Rica.innerHTML = Rica.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Spai = document.getElementById("Spai");
+Spai.addEventListener(
+  "click",
+  function () {
+    if (Spai.getAttribute("data-text") == Spai.innerHTML) {
+      Spai.innerHTML = Spai.getAttribute("data-text1");
+    } else {
+      Spai.setAttribute("data-text1", Spai.innerHTML);
+      Spai.innerHTML = Spai.getAttribute("data-text");
+    }
+  },
+  false
+);
+var German = document.getElementById("German");
+German.addEventListener(
+  "click",
+  function () {
+    if (German.getAttribute("data-text") == German.innerHTML) {
+      German.innerHTML = German.getAttribute("data-text1");
+    } else {
+      German.setAttribute("data-text1", German.innerHTML);
+      German.innerHTML = German.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Jap = document.getElementById("Jap");
+Jap.addEventListener(
+  "click",
+  function () {
+    if (Jap.getAttribute("data-text") == Jap.innerHTML) {
+      Jap.innerHTML = Jap.getAttribute("data-text1");
+    } else {
+      Jap.setAttribute("data-text1", Jap.innerHTML);
+      Jap.innerHTML = Jap.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Spa = document.getElementById("Spa");
+Spa.addEventListener(
+  "click",
+  function () {
+    if (Spa.getAttribute("data-text") == Spa.innerHTML) {
+      Spa.innerHTML = Spa.getAttribute("data-text1");
+    } else {
+      Spa.setAttribute("data-text1", Spa.innerHTML);
+      Spa.innerHTML = Spa.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Cos = document.getElementById("Cos");
+Cos.addEventListener(
+  "click",
+  function () {
+    if (Cos.getAttribute("data-text") == Cos.innerHTML) {
+      Cos.innerHTML = Cos.getAttribute("data-text1");
+    } else {
+      Cos.setAttribute("data-text1", Cos.innerHTML);
+      Cos.innerHTML = Cos.getAttribute("data-text");
+    }
+  },
+  false
+);
+var Ger = document.getElementById("Ger");
+Ger.addEventListener(
+  "click",
+  function () {
+    if (Ger.getAttribute("data-text") == Ger.innerHTML) {
+      Ger.innerHTML = Ger.getAttribute("data-text1");
+    } else {
+      Ger.setAttribute("data-text1", Ger.innerHTML);
+      Ger.innerHTML = Ger.getAttribute("data-text");
+    }
+  },
+  false
+);
